@@ -1,0 +1,681 @@
+2025-07-06 13:53:32,226 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-06 13:53:32,227 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-06 13:53:32,825 - DEBUG - Loading model cost 0.600 seconds.
+2025-07-06 13:53:32,825 - DEBUG - Prefix dict has been built successfully.
+2025-07-06 13:53:37,058 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 13:53:38,558 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 13:53:40,060 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 13:53:50,029 - INFO - 成功处理结果: 湖南十大情侣旅游景点2025年排行榜前十名榜单出炉-大仙常识网 (http://www.dx-cz.com/wenhua/81613.html)
+2025-07-06 13:53:50,116 - INFO - 成功处理结果: 中国十大浪漫景区 520最适合情侣去的景点 十大情人游玩圣地→榜中榜 (https://www.bang.cn/top10/53060.html)
+2025-07-06 13:53:50,200 - INFO - 成功处理结果: 情侣旅游景点推荐，2025情侣旅行浪漫地藏着专属心动，推荐收藏 (https://www.sohu.com/a/895459512_121893286)
+2025-07-06 13:53:50,490 - INFO - 成功处理结果: 情侣旅游景点推荐，2025年情侣旅行爆款攻略，高甜城市，推荐收藏|民宿|小九|骑行_网易订阅 (https://www.163.com/dy/article/JR1I38NM05568M7I.html)
+2025-07-06 13:53:50,564 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 13:53:51,614 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 13:53:52,672 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 13:53:52,672 - INFO - 成功处理结果: 情侣旅游景点推荐，2025年情侣旅行爆款攻略，用中等预算解锁五大高甜城市，推荐收藏 - 知乎 (https://zhuanlan.zhihu.com/p/31328481076)
+2025-07-06 13:53:52,980 - INFO - 成功处理结果: 中国十大浪漫景区 520最适合情侣去的景点 十大情人游玩圣地→Maigoo知识 (https://www.maigoo.com/goomai/150564.html)
+2025-07-06 13:53:53,649 - INFO - 成功处理结果: 绝佳浪漫行程，探访中国十大情侣旅游爱情圣地 (https://www.gunbaike.com/changshi/PO6kgDa6yK.html)
+2025-07-06 13:53:53,753 - INFO - 成功处理结果: 中国十大情侣旅游胜地 中国十大适合情侣旅游的城市 国内情侣约会热门目的地推荐→Maigoo生活榜 (https://m.maigoo.com/top/391601.html)
+2025-07-06 13:53:53,776 - INFO - 成功处理结果: 情侣浪漫旅行地推荐2025：十大海岛、雪山、古城景点，蜈支洲岛、鼓浪屿、稻城亚丁等情侣必去打卡地_爱情 (https://www.sohu.com/a/895463761_122094388)
+2025-07-06 13:53:53,788 - INFO - 搜索结果已保存至 E:\我的论文和代码\Chemotherapy\ReNeLLM-main\sues_rag\duckduckgo_search_results.json
+2025-07-06 15:02:05,314 - WARNING - 搜索请求失败 (尝试 1/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000018917E17800>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-06 15:02:16,319 - WARNING - 搜索请求失败 (尝试 2/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000018917E179B0>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-06 15:02:27,326 - WARNING - 搜索请求失败 (尝试 3/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000018917E17CB0>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-06 15:02:27,326 - ERROR - 达到最大重试次数，搜索失败
+2025-07-06 15:02:27,328 - INFO - 搜索结果已保存至 E:\我的论文和代码\Chemotherapy\ReNeLLM-main\sues_rag\duckduckgo_search_results.json
+2025-07-06 15:02:43,619 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-06 15:02:43,620 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-06 15:02:44,220 - DEBUG - Loading model cost 0.601 seconds.
+2025-07-06 15:02:44,221 - DEBUG - Prefix dict has been built successfully.
+2025-07-06 15:02:46,841 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 15:02:48,343 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 15:02:49,845 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 15:03:05,045 - INFO - 成功处理结果: 湖南十大情侣旅游景点2025年排行榜前十名榜单出炉-大仙常识网 (http://www.dx-cz.com/wenhua/81613.html)
+2025-07-06 15:03:05,458 - INFO - 成功处理结果: 情侣旅游景点推荐，2025情侣旅行浪漫地藏着专属心动，推荐收藏 (https://www.sohu.com/a/895459512_121893286)
+2025-07-06 15:03:05,968 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 15:03:07,469 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 15:03:09,014 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 15:03:09,015 - INFO - 成功处理结果: 情侣旅游景点推荐，2025年情侣旅行爆款攻略，用中等预算解锁五大高甜城市，推荐收藏 - 知乎 (https://zhuanlan.zhihu.com/p/31328481076)
+2025-07-06 15:03:09,748 - INFO - 成功处理结果: 情侣旅游景点推荐，2025年情侣旅行爆款攻略，高甜城市，推荐收藏|民宿|小九|骑行_网易订阅 (https://www.163.com/dy/article/JR1I38NM05568M7I.html)
+2025-07-06 15:03:10,632 - INFO - 成功处理结果: 绝佳浪漫行程，探访中国十大情侣旅游爱情圣地 (https://www.gunbaike.com/changshi/PO6kgDa6yK.html)
+2025-07-06 15:03:11,521 - INFO - 成功处理结果: 中国十大浪漫景区 520最适合情侣去的景点 十大情人游玩圣地→Maigoo知识 (https://www.maigoo.com/goomai/150564.html)
+2025-07-06 15:03:12,132 - INFO - 成功处理结果: 中国十大浪漫景区 520最适合情侣去的景点 十大情人游玩圣地_买购网 (https://www.maigoo.com/citiao/list_53060.html)
+2025-07-06 15:03:12,499 - INFO - 成功处理结果: 情侣浪漫旅行地推荐2025：十大海岛、雪山、古城景点，蜈支洲岛、鼓浪屿、稻城亚丁等情侣必去打卡地_爱情 (https://www.sohu.com/a/895463761_122094388)
+2025-07-06 15:03:12,976 - INFO - 成功处理结果: 2025年五一小长假国内适合情侣旅游的地方推荐，五天都是满满的浪漫!! - Extrabux (https://www.extrabux.com/chs/guide/544755)
+2025-07-06 15:03:12,988 - INFO - 搜索结果已保存至 E:\我的论文和代码\Chemotherapy\ReNeLLM-main\sues_rag\duckduckgo_search_results.json
+2025-07-06 15:04:59,128 - WARNING - 搜索请求失败 (尝试 1/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001BF41E679E0>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-06 15:05:10,133 - WARNING - 搜索请求失败 (尝试 2/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001BF41E67B60>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-06 15:05:21,135 - WARNING - 搜索请求失败 (尝试 3/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001BF41E67E90>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-06 15:05:21,135 - ERROR - 达到最大重试次数，搜索失败
+2025-07-06 15:05:21,137 - INFO - 搜索结果已保存至 E:\我的论文和代码\Chemotherapy\ReNeLLM-main\sues_rag\duckduckgo_search_results.json
+2025-07-06 15:06:02,681 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-06 15:06:02,682 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-06 15:06:03,271 - DEBUG - Loading model cost 0.590 seconds.
+2025-07-06 15:06:03,271 - DEBUG - Prefix dict has been built successfully.
+2025-07-06 15:06:05,603 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 15:06:07,137 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 15:06:08,661 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 15:06:20,421 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/32854215834
+2025-07-06 15:06:21,945 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/32854215834
+2025-07-06 15:06:23,521 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/32854215834
+2025-07-06 15:06:25,106 - INFO - 成功处理结果: 湖南十大情侣旅游景点2025年排行榜前十名榜单出炉-大仙常识网 (http://www.dx-cz.com/wenhua/81613.html)
+2025-07-06 15:06:25,467 - INFO - 成功处理结果: 情侣旅游景点推荐，2025情侣旅行浪漫地藏着专属心动，推荐收藏 (https://www.sohu.com/a/895459512_121893286)
+2025-07-06 15:06:25,999 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 15:06:27,525 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 15:06:29,056 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 15:06:29,057 - INFO - 成功处理结果: 情侣旅游景点推荐，2025年情侣旅行爆款攻略，用中等预算解锁五大高甜城市，推荐收藏 - 知乎 (https://zhuanlan.zhihu.com/p/31328481076)
+2025-07-06 15:06:30,034 - INFO - 成功处理结果: 情侣旅游景点推荐，2025年情侣旅行爆款攻略，高甜城市，推荐收藏|民宿|小九|骑行_网易订阅 (https://www.163.com/dy/article/JR1I38NM05568M7I.html)
+2025-07-06 15:06:30,929 - INFO - 成功处理结果: 中国十大浪漫景区 520最适合情侣去的景点 十大情人游玩圣地→Maigoo知识 (https://www.maigoo.com/goomai/150564.html)
+2025-07-06 15:06:32,357 - INFO - 成功处理结果: 中国十大情侣旅游胜地 推荐收藏 - 百度经验 (https://jingyan.baidu.com/article/8275fc86791e2246a03cf6ec.html)
+2025-07-06 15:06:32,707 - INFO - 成功处理结果: 情侣浪漫旅行地推荐2025：十大海岛、雪山、古城景点，蜈支洲岛、鼓浪屿、稻城亚丁等情侣必去打卡地_爱情 (https://www.sohu.com/a/895463761_122094388)
+2025-07-06 15:06:33,241 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/32854215834
+2025-07-06 15:06:34,766 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/32854215834
+2025-07-06 15:06:36,293 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/32854215834
+2025-07-06 15:06:36,293 - INFO - 成功处理结果: 全国旅游景点排名10，2025必打卡!全国十大景点攻略，中等消费也能玩转精华!推荐收藏 - 知乎 (https://zhuanlan.zhihu.com/p/32854215834)
+2025-07-06 15:06:36,763 - INFO - 成功处理结果: 2025年五一小长假国内适合情侣旅游的地方推荐，五天都是满满的浪漫!! - Extrabux (https://www.extrabux.com/chs/guide/544755)
+2025-07-06 15:06:36,787 - INFO - 搜索结果已保存至 E:\我的论文和代码\Chemotherapy\ReNeLLM-main\sues_rag\duckduckgo_search_results.json
+2025-07-06 15:26:25,177 - WARNING - 搜索请求失败 (尝试 1/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001A8FDDBB4D0>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-06 15:26:36,182 - WARNING - 搜索请求失败 (尝试 2/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001A8FDDBB860>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-06 15:26:47,189 - WARNING - 搜索请求失败 (尝试 3/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001A8FDDBBBC0>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-06 15:26:47,190 - ERROR - 达到最大重试次数，搜索失败
+2025-07-06 15:26:47,192 - INFO - 搜索结果已保存至 E:\我的论文和代码\Chemotherapy\ReNeLLM-main\sues_rag\duckduckgo_search_results.json
+2025-07-06 15:34:45,857 - WARNING - 搜索请求失败 (尝试 1/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000129E4CFBD70>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-06 15:34:56,862 - WARNING - 搜索请求失败 (尝试 2/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000129E5017890>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-06 15:35:07,865 - WARNING - 搜索请求失败 (尝试 3/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000129E5017B60>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-06 15:35:07,866 - ERROR - 达到最大重试次数，搜索失败
+2025-07-06 15:35:07,869 - INFO - 搜索结果已保存至 E:\我的论文和代码\Chemotherapy\ReNeLLM-main\sues_rag\duckduckgo_search_results.json
+2025-07-06 16:01:31,678 - WARNING - 搜索请求失败 (尝试 1/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000020343F4B530>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-06 16:01:42,681 - WARNING - 搜索请求失败 (尝试 2/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000020343F4B800>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-06 16:01:53,683 - WARNING - 搜索请求失败 (尝试 3/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000020343F4BAA0>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-06 16:01:53,683 - ERROR - 达到最大重试次数，搜索失败
+2025-07-06 16:01:53,685 - INFO - 搜索结果已保存至 E:\我的论文和代码\Chemotherapy\ReNeLLM-main\sues_rag\duckduckgo_search_results.json
+2025-07-06 16:02:19,859 - WARNING - 搜索请求失败 (尝试 1/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022AFD39B590>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2025-07-06 16:02:22,875 - WARNING - 搜索请求失败 (尝试 2/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022AFD39B920>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2025-07-06 16:02:25,889 - WARNING - 搜索请求失败 (尝试 3/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%83%85%E4%BE%A3%E6%97%85%E6%B8%B8%E6%99%AF%E7%82%B9 (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022AFD39BB90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2025-07-06 16:02:25,890 - ERROR - 达到最大重试次数，搜索失败
+2025-07-06 16:02:25,893 - INFO - 搜索结果已保存至 E:\我的论文和代码\Chemotherapy\ReNeLLM-main\sues_rag\duckduckgo_search_results.json
+2025-07-06 16:02:40,743 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-06 16:02:40,744 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-06 16:02:41,381 - DEBUG - Loading model cost 0.638 seconds.
+2025-07-06 16:02:41,381 - DEBUG - Prefix dict has been built successfully.
+2025-07-06 16:02:44,001 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 16:02:45,529 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 16:02:47,053 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 16:03:03,475 - INFO - 成功处理结果: 湖南十大情侣旅游景点2025年排行榜前十名榜单出炉-大仙常识网 (http://www.dx-cz.com/wenhua/81613.html)
+2025-07-06 16:03:03,832 - INFO - 成功处理结果: 情侣旅游景点推荐，2025情侣旅行浪漫地藏着专属心动，推荐收藏 (https://www.sohu.com/a/895459512_121893286)
+2025-07-06 16:03:04,366 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 16:03:05,895 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 16:03:07,421 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 16:03:07,422 - INFO - 成功处理结果: 情侣旅游景点推荐，2025年情侣旅行爆款攻略，用中等预算解锁五大高甜城市，推荐收藏 - 知乎 (https://zhuanlan.zhihu.com/p/31328481076)
+2025-07-06 16:03:08,349 - INFO - 成功处理结果: 情侣旅游景点推荐，2025年情侣旅行爆款攻略，高甜城市，推荐收藏|民宿|小九|骑行_网易订阅 (https://www.163.com/dy/article/JR1I38NM05568M7I.html)
+2025-07-06 16:03:09,173 - INFO - 成功处理结果: 绝佳浪漫行程，探访中国十大情侣旅游爱情圣地 (https://www.gunbaike.com/changshi/PO6kgDa6yK.html)
+2025-07-06 16:03:10,184 - INFO - 成功处理结果: 中国十大浪漫景区 520最适合情侣去的景点 十大情人游玩圣地→Maigoo知识 (https://www.maigoo.com/goomai/150564.html)
+2025-07-06 16:03:10,504 - INFO - 成功处理结果: 情侣浪漫旅行地推荐2025：十大海岛、雪山、古城景点，蜈支洲岛、鼓浪屿、稻城亚丁等情侣必去打卡地_爱情 (https://www.sohu.com/a/895463761_122094388)
+2025-07-06 16:03:11,943 - INFO - 成功处理结果: 中国十大情侣旅游胜地 推荐收藏 - 百度经验 (https://jingyan.baidu.com/article/8275fc86791e2246a03cf6ec.html)
+2025-07-06 16:03:11,963 - INFO - 搜索结果已保存至 E:\我的论文和代码\Chemotherapy\ReNeLLM-main\sues_rag\duckduckgo_search_results.json
+2025-07-06 22:59:09,610 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-06 22:59:09,612 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-06 22:59:10,140 - DEBUG - Loading model cost 0.529 seconds.
+2025-07-06 22:59:10,141 - DEBUG - Prefix dict has been built successfully.
+2025-07-06 22:59:12,948 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 22:59:14,494 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 22:59:16,039 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 22:59:33,673 - INFO - 成功处理结果: 湖南十大情侣旅游景点2025年排行榜前十名榜单出炉-大仙常识网 (http://www.dx-cz.com/wenhua/81613.html)
+2025-07-06 22:59:34,050 - INFO - 成功处理结果: 情侣旅游景点推荐，2025情侣旅行浪漫地藏着专属心动，推荐收藏 (https://www.sohu.com/a/895459512_121893286)
+2025-07-06 22:59:34,583 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 22:59:36,122 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 22:59:37,659 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/31328481076
+2025-07-06 22:59:37,660 - ERROR - 提取中文时出错: 输入必须是字符串
+2025-07-06 22:59:37,660 - INFO - 成功处理结果: 情侣旅游景点推荐，2025年情侣旅行爆款攻略，用中等预算解锁五大高甜城市，推荐收藏 - 知乎 (https://zhuanlan.zhihu.com/p/31328481076)
+2025-07-06 22:59:38,461 - INFO - 成功处理结果: 情侣旅游景点推荐，2025年情侣旅行爆款攻略，高甜城市，推荐收藏|民宿|小九|骑行_网易订阅 (https://www.163.com/dy/article/JR1I38NM05568M7I.html)
+2025-07-06 22:59:39,308 - INFO - 成功处理结果: 绝佳浪漫行程，探访中国十大情侣旅游爱情圣地 (https://www.gunbaike.com/changshi/PO6kgDa6yK.html)
+2025-07-06 22:59:40,300 - INFO - 成功处理结果: 中国十大浪漫景区 520最适合情侣去的景点 十大情人游玩圣地→Maigoo知识 (https://www.maigoo.com/goomai/150564.html)
+2025-07-06 22:59:41,689 - INFO - 成功处理结果: 中国十大情侣旅游胜地 推荐收藏 - 百度经验 (https://jingyan.baidu.com/article/8275fc86791e2246a03cf6ec.html)
+2025-07-06 22:59:42,048 - INFO - 成功处理结果: 情侣浪漫旅行地推荐2025：十大海岛、雪山、古城景点，蜈支洲岛、鼓浪屿、稻城亚丁等情侣必去打卡地_爱情 (https://www.sohu.com/a/895463761_122094388)
+2025-07-06 22:59:42,591 - INFO - 成功处理结果: 2025年五一小长假国内适合情侣旅游的地方推荐，五天都是满满的浪漫!! - Extrabux (https://www.extrabux.com/chs/guide/544755)
+2025-07-06 22:59:42,617 - INFO - 搜索结果已保存至 E:\我的论文和代码\Chemotherapy\ReNeLLM-main\sues_rag\duckduckgo_search_results.json
+2025-07-06 23:02:45,724 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-06 23:02:45,725 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-06 23:02:46,286 - DEBUG - Loading model cost 0.561 seconds.
+2025-07-06 23:02:46,286 - DEBUG - Prefix dict has been built successfully.
+2025-07-06 23:03:17,396 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20798a263774/page.htm)
+2025-07-06 23:03:17,974 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://jcxy.sues.edu.cn/3a/8b/c26499a277131/page.htm)
+2025-07-06 23:03:18,649 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？—中国教育在线 (https://kaoyan.eol.cn/shanghai/yanzhao/202403/t20240315_2564768.shtml?fromcoop=weiruan)
+2025-07-06 23:03:20,946 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求_考研_希赛网 (https://www.educity.cn/kyyy/5297276.html)
+2025-07-06 23:03:22,305 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？ - 掌上考研 (https://www.kaoyan.cn/ky/4468)
+2025-07-06 23:03:24,914 - INFO - 成功处理结果: 2024年上海工程技术大学各专业考研复试分数线一览表（含2023年）_学习力 (http://www.xuexili.com/kaoyan/79273.html)
+2025-07-06 23:03:25,399 - INFO - 成功处理结果: 2024-2025年上海工程技术大学研究生分数线 (近2年分数线)_考研_新东方在线 (https://kaoyan.koolearn.com/20240618/1722243.html)
+2025-07-06 23:03:26,526 - INFO - 成功处理结果: 2025上海工程技术大学研究生分数线（含2023-2024历年复试）_大学生必备网 (https://www.dxsbb.com/news/45580.html)
+2025-07-06 23:03:26,882 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://www.sohu.com/a/764366604_121123852)
+2025-07-06 23:03:27,787 - INFO - 成功处理结果: 上海工程技术大学历年考研分数线汇总（2019-2024年） (https://m.chinakaoyan.com/info/article/id/539687.shtml)
+2025-07-06 23:03:27,812 - INFO - 搜索结果已保存至 E:\我的论文和代码\Chemotherapy\ReNeLLM-main\sues_rag\duckduckgo_search_results.json
+2025-07-06 23:09:42,287 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-06 23:09:42,288 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-06 23:09:42,850 - DEBUG - Loading model cost 0.563 seconds.
+2025-07-06 23:09:42,850 - DEBUG - Prefix dict has been built successfully.
+2025-07-06 23:10:06,604 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？—中国教育在线 (https://kaoyan.eol.cn/shanghai/yanzhao/202403/t20240315_2564768.shtml?fromcoop=weiruan)
+2025-07-06 23:10:07,221 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20798a263774/page.htm)
+2025-07-06 23:10:07,805 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://jcxy.sues.edu.cn/3a/8b/c26499a277131/page.htm)
+2025-07-06 23:10:10,909 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求_考研_希赛网 (https://www.educity.cn/kyyy/5297276.html)
+2025-07-06 23:10:11,523 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？ - 掌上考研 (https://www.kaoyan.cn/ky/4468)
+2025-07-06 23:10:12,813 - INFO - 成功处理结果: 2024年上海工程技术大学各专业考研复试分数线一览表（含2023年）_学习力 (http://www.xuexili.com/kaoyan/79273.html)
+2025-07-06 23:10:13,281 - INFO - 成功处理结果: 2024-2025年上海工程技术大学研究生分数线 (近2年分数线)_考研_新东方在线 (https://kaoyan.koolearn.com/20240618/1722243.html)
+2025-07-06 23:10:13,849 - INFO - 成功处理结果: 2025上海工程技术大学研究生分数线（含2023-2024历年复试）_大学生必备网 (https://www.dxsbb.com/news/45580.html)
+2025-07-06 23:10:14,204 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://www.sohu.com/a/764366604_121123852)
+2025-07-06 23:10:15,095 - INFO - 成功处理结果: 上海工程技术大学历年考研分数线汇总（2019-2024年） (https://m.chinakaoyan.com/info/article/id/539687.shtml)
+2025-07-06 23:10:15,104 - INFO - 搜索结果已保存至 E:\我的论文和代码\Chemotherapy\ReNeLLM-main\sues_rag\duckduckgo_search_results.json
+2025-07-06 23:17:47,104 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-06 23:17:47,105 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-06 23:17:47,677 - DEBUG - Loading model cost 0.573 seconds.
+2025-07-06 23:17:47,677 - DEBUG - Prefix dict has been built successfully.
+2025-07-06 23:18:15,199 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20798a263774/page.htm)
+2025-07-06 23:18:15,917 - INFO - 成功处理结果: 上海工程技术大学2024年各省录取分数线一览表 —中国教育在线 (https://gaokao.eol.cn/daxue/zixun/202407/t20240729_2626941.shtml)
+2025-07-06 23:18:16,583 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？—中国教育在线 (https://kaoyan.eol.cn/shanghai/yanzhao/202403/t20240315_2564768.shtml?fromcoop=weiruan)
+2025-07-06 23:18:17,047 - INFO - 成功处理结果: 2024-2025年上海工程技术大学研究生分数线 (近2年分数线)_考研_新东方在线 (https://kaoyan.koolearn.com/20240618/1722243.html)
+2025-07-06 23:18:17,663 - INFO - 成功处理结果: 上海工程技术大学2024年各省录取分数线一览表（2025参考） (https://www.daxuejiayou.com/660192355.html)
+2025-07-06 23:18:18,543 - INFO - 成功处理结果: 上海工程技术大学历年考研分数线汇总（2019-2024年） (https://m.chinakaoyan.com/info/article/id/539687.shtml)
+2025-07-06 23:18:19,460 - INFO - 成功处理结果: 上海工程技术大学录取分数线2024年 (更新中）- 上海本地宝 (https://sh.bendibao.com/edu/2024729/289797.shtm)
+2025-07-06 23:18:20,006 - INFO - 成功处理结果: 2025上海工程技术大学研究生分数线（含2023-2024历年复试）_大学生必备网 (https://www.dxsbb.com/news/45580.html)
+2025-07-06 23:18:20,344 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://www.sohu.com/a/764366604_121123852)
+2025-07-06 23:18:22,806 - INFO - 成功处理结果: 2024年上海工程技术大学研究生分数线一览表（含2023年历年）_4221学习网 (http://www.e4221.com/kaoyan/fenshuxian/31781.html)
+2025-07-06 23:18:22,827 - INFO - 搜索结果已保存至 E:\我的论文和代码\Chemotherapy\ReNeLLM-main\sues_rag\duckduckgo_search_results.json
+2025-07-06 23:20:38,941 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-06 23:20:38,942 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-06 23:20:39,539 - DEBUG - Loading model cost 0.597 seconds.
+2025-07-06 23:20:39,540 - DEBUG - Prefix dict has been built successfully.
+2025-07-06 23:21:06,068 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/571928850
+2025-07-06 23:21:06,611 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/571928850
+2025-07-06 23:21:07,154 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/571928850
+2025-07-06 23:21:08,394 - INFO - 成功处理结果: 2024年上海工程技术大学各专业考研复试分数线一览表（含2023年）_学习力 (http://www.xuexili.com/kaoyan/79273.html)
+2025-07-06 23:21:08,946 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20798a263774/page.htm)
+2025-07-06 23:21:09,567 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？—中国教育在线 (https://kaoyan.eol.cn/shanghai/yanzhao/202403/t20240315_2564768.shtml?fromcoop=weiruan)
+2025-07-06 23:21:12,261 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求_考研_希赛网 (https://www.educity.cn/kyyy/5297276.html)
+2025-07-06 23:21:12,867 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？ - 掌上考研 (https://www.kaoyan.cn/ky/4468)
+2025-07-06 23:21:13,417 - INFO - 成功处理结果: 2025上海工程技术大学研究生分数线（含2023-2024历年复试）_大学生必备网 (https://www.dxsbb.com/news/45580.html)
+2025-07-06 23:21:14,373 - INFO - 成功处理结果: 2024-2025年上海工程技术大学研究生分数线 (近2年分数线)_考研_新东方在线 (https://kaoyan.koolearn.com/20240618/1722243.html)
+2025-07-06 23:21:14,721 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://www.sohu.com/a/764366604_121123852)
+2025-07-06 23:21:15,586 - INFO - 成功处理结果: 上海工程技术大学历年考研分数线汇总（2019-2024年） (https://m.chinakaoyan.com/info/article/id/539687.shtml)
+2025-07-06 23:21:16,127 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/571928850
+2025-07-06 23:21:16,690 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/571928850
+2025-07-06 23:21:17,240 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/571928850
+2025-07-06 23:21:17,241 - INFO - 成功处理结果: 2024考研|上海工程技术大学报考条件、专业目录、分数线、报录比等考研院校信息汇总-257 - 知乎 (https://zhuanlan.zhihu.com/p/571928850)
+2025-07-06 23:21:17,259 - INFO - 搜索结果已保存至 E:\我的论文和代码\Chemotherapy\ReNeLLM-main\sues_rag\duckduckgo_search_results.json
+2025-07-06 23:56:34,316 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-06 23:56:34,317 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-06 23:56:34,954 - DEBUG - Loading model cost 0.637 seconds.
+2025-07-06 23:56:34,954 - DEBUG - Prefix dict has been built successfully.
+2025-07-06 23:57:09,058 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20798a263774/page.htm)
+2025-07-06 23:57:10,140 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生复试工作办法 (http://infopub.sues.edu.cn/c5/f2/c141a50674/page.htm)
+2025-07-06 23:57:10,715 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://jcxy.sues.edu.cn/3a/8b/c26499a277131/page.htm)
+2025-07-06 23:57:16,910 - INFO - 成功获取回答，问题：2024年上海工程技术大学研究生复试线
+2025-07-07 12:28:09,812 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-07 12:28:09,817 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-07 12:28:10,346 - DEBUG - Loading model cost 0.532 seconds.
+2025-07-07 12:28:10,346 - DEBUG - Prefix dict has been built successfully.
+2025-07-07 12:28:38,673 - WARNING - 获取网页内容失败 (尝试 1/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 12:28:39,897 - WARNING - 获取网页内容失败 (尝试 2/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 12:28:41,106 - WARNING - 获取网页内容失败 (尝试 3/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 12:28:41,710 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20798a263774/page.htm)
+2025-07-07 12:30:29,363 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-07 12:30:29,363 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-07 12:30:29,983 - DEBUG - Loading model cost 0.620 seconds.
+2025-07-07 12:30:29,984 - DEBUG - Prefix dict has been built successfully.
+2025-07-07 12:30:49,209 - WARNING - 获取网页内容失败 (尝试 1/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 12:30:50,413 - WARNING - 获取网页内容失败 (尝试 2/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 12:30:51,625 - WARNING - 获取网页内容失败 (尝试 3/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 12:30:52,184 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20798a263774/page.htm)
+2025-07-07 12:30:54,956 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求_考研_希赛网 (https://www.educity.cn/kyyy/5297276.html)
+2025-07-07 12:30:55,498 - INFO - 成功处理结果: 2025上海工程技术大学研究生分数线（含2023-2024历年复试）_大学生必备网 (https://www.dxsbb.com/news/45580.html)
+2025-07-07 12:30:55,862 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://www.sohu.com/a/764366604_121123852)
+2025-07-07 12:30:56,723 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生复试分数线_上海工程技术大学研究生院 - 中国考研网 (https://www.chinakaoyan.com/graduate/info/nid/544303/schoolID/23.shtml)
+2025-07-07 12:30:57,366 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？—中国教育在线 (https://kaoyan.eol.cn/shanghai/yanzhao/202403/t20240315_2564768.shtml?fromcoop=weiruan)
+2025-07-07 12:30:57,931 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？ - 掌上考研 (https://www.kaoyan.cn/ky/4468)
+2025-07-07 12:30:59,100 - WARNING - 获取网页内容失败 (尝试 1/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 12:31:00,262 - WARNING - 获取网页内容失败 (尝试 2/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 12:31:01,441 - WARNING - 获取网页内容失败 (尝试 3/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 12:31:01,442 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？--中国教育在线 (https://m.eol.cn/kaoyan/202403/t20240315_2564768.shtml)
+2025-07-07 12:31:01,881 - INFO - 成功处理结果: 2024-2025年上海工程技术大学研究生分数线 (近2年分数线)_考研_新东方在线 (https://kaoyan.koolearn.com/20240618/1722243.html)
+2025-07-07 12:31:03,156 - INFO - 成功处理结果: 2024年上海工程技术大学各专业考研复试分数线一览表（含2023年）_学习力 (http://www.xuexili.com/kaoyan/79273.html)
+2025-07-07 12:31:03,185 - INFO - 搜索结果已保存至 E:\我的论文和代码\Chemotherapy\ReNeLLM-main\sues_rag\duckduckgo_search_results.json (格式: json)
+2025-07-07 13:00:43,831 - WARNING - 搜索请求失败 (尝试 1/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2024%E5%B9%B4%E4%B8%8A%E6%B5%B7%E5%B7%A5%E7%A8%8B%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6%E7%A0%94%E7%A9%B6%E7%94%9F%E5%A4%8D%E8%AF%95%E5%88%86%E6%95%B0%E7%BA%BF (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000029A32180FB0>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-07 13:00:53,837 - WARNING - 搜索请求失败 (尝试 2/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2024%E5%B9%B4%E4%B8%8A%E6%B5%B7%E5%B7%A5%E7%A8%8B%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6%E7%A0%94%E7%A9%B6%E7%94%9F%E5%A4%8D%E8%AF%95%E5%88%86%E6%95%B0%E7%BA%BF (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000029A32182780>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-07 13:01:03,849 - WARNING - 搜索请求失败 (尝试 3/3): HTTPSConnectionPool(host='duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=2024%E5%B9%B4%E4%B8%8A%E6%B5%B7%E5%B7%A5%E7%A8%8B%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6%E7%A0%94%E7%A9%B6%E7%94%9F%E5%A4%8D%E8%AF%95%E5%88%86%E6%95%B0%E7%BA%BF (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000029A32182A50>, 'Connection to duckduckgo.com timed out. (connect timeout=10)'))
+2025-07-07 13:01:03,851 - ERROR - 达到最大重试次数，搜索失败
+2025-07-07 13:01:28,533 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-07 13:01:28,536 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-07 13:01:29,031 - DEBUG - Loading model cost 0.496 seconds.
+2025-07-07 13:01:29,032 - DEBUG - Prefix dict has been built successfully.
+2025-07-07 13:01:46,962 - WARNING - 获取网页内容失败 (尝试 1/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 13:01:47,966 - WARNING - 获取网页内容失败 (尝试 2/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 13:01:48,952 - WARNING - 获取网页内容失败 (尝试 3/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 13:01:49,431 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20798a263774/page.htm)
+2025-07-07 13:01:51,332 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求_考研_希赛网 (https://www.educity.cn/kyyy/5297276.html)
+2025-07-07 13:01:51,773 - INFO - 成功处理结果: 2025上海工程技术大学研究生分数线（含2023-2024历年复试）_大学生必备网 (https://www.dxsbb.com/news/45580.html)
+2025-07-07 13:01:52,056 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://www.sohu.com/a/764366604_121123852)
+2025-07-07 13:01:52,759 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生复试分数线_上海工程技术大学研究生院 - 中国考研网 (https://www.chinakaoyan.com/graduate/info/nid/544303/schoolID/23.shtml)
+2025-07-07 13:01:53,293 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？—中国教育在线 (https://kaoyan.eol.cn/shanghai/yanzhao/202403/t20240315_2564768.shtml?fromcoop=weiruan)
+2025-07-07 13:01:53,772 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？ - 掌上考研 (https://www.kaoyan.cn/ky/4468)
+2025-07-07 13:01:54,779 - WARNING - 获取网页内容失败 (尝试 1/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 13:01:55,747 - WARNING - 获取网页内容失败 (尝试 2/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 13:01:56,718 - WARNING - 获取网页内容失败 (尝试 3/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 13:01:56,719 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？--中国教育在线 (https://m.eol.cn/kaoyan/202403/t20240315_2564768.shtml)
+2025-07-07 13:01:57,251 - INFO - 成功处理结果: 2024-2025年上海工程技术大学研究生分数线 (近2年分数线)_考研_新东方在线 (https://kaoyan.koolearn.com/20240618/1722243.html)
+2025-07-07 13:01:58,241 - INFO - 成功处理结果: 2024年上海工程技术大学各专业考研复试分数线一览表（含2023年）_学习力 (http://www.xuexili.com/kaoyan/79273.html)
+2025-07-07 14:45:54,142 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-07 14:45:54,143 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-07 14:45:54,674 - DEBUG - Loading model cost 0.530 seconds.
+2025-07-07 14:45:54,674 - DEBUG - Prefix dict has been built successfully.
+2025-07-07 14:46:13,126 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20798a263774/page.htm)
+2025-07-07 14:46:13,931 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生复试工作办法 (http://infopub.sues.edu.cn/c5/f2/c141a50674/page.htm)
+2025-07-07 14:46:15,327 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求_考研_希赛网 (https://www.educity.cn/kyyy/5297276.html)
+2025-07-07 14:46:15,713 - INFO - 成功处理结果: 2025上海工程技术大学研究生分数线（含2023-2024历年复试）_大学生必备网 (https://www.dxsbb.com/news/45580.html)
+2025-07-07 14:46:16,380 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生复试分数线_上海工程技术大学研究生院 - 中国考研网 (https://www.chinakaoyan.com/graduate/info/nid/544303/schoolID/23.shtml)
+2025-07-07 14:46:16,636 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://www.sohu.com/a/764366604_121123852)
+2025-07-07 14:46:17,103 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？—中国教育在线 (https://kaoyan.eol.cn/shanghai/yanzhao/202403/t20240315_2564768.shtml?fromcoop=weiruan)
+2025-07-07 14:46:17,522 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？ - 掌上考研 (https://www.kaoyan.cn/ky/4468)
+2025-07-07 14:46:17,871 - INFO - 成功处理结果: 2024-2025年上海工程技术大学研究生分数线 (近2年分数线)_考研_新东方在线 (https://kaoyan.koolearn.com/20240618/1722243.html)
+2025-07-07 14:46:18,759 - INFO - 成功处理结果: 2024年上海工程技术大学各专业考研复试分数线一览表（含2023年）_学习力 (http://www.xuexili.com/kaoyan/79273.html)
+2025-07-07 14:46:25,831 - INFO - 成功响应-0，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:46:29,869 - INFO - 成功响应-0，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:46:34,836 - INFO - 成功响应-0，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:46:41,152 - INFO - 成功响应-1，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:46:46,827 - INFO - 成功响应-1，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:46:53,079 - INFO - 成功响应-1，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:47:01,987 - INFO - 成功响应-2，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:47:13,327 - INFO - 成功响应-2，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:47:19,790 - INFO - 成功响应-2，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:47:25,084 - INFO - 成功响应-3，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:47:31,110 - INFO - 成功响应-3，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:47:35,454 - INFO - 成功响应-3，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:47:40,736 - INFO - 成功响应-4，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:47:45,244 - INFO - 成功响应-4，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:47:51,005 - INFO - 成功响应-4，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:47:55,414 - INFO - 成功响应-5，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:48:01,052 - INFO - 成功响应-5，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:48:05,984 - INFO - 成功响应-5，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:48:12,850 - INFO - 成功响应-6，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:48:20,544 - INFO - 成功响应-6，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:48:28,643 - INFO - 成功响应-6，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:48:32,915 - INFO - 成功响应-7，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:48:38,367 - INFO - 成功响应-7，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:48:44,970 - INFO - 成功响应-7，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:48:55,595 - INFO - 成功响应-8，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:49:02,347 - INFO - 成功响应-8，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:49:10,723 - INFO - 成功响应-8，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:49:15,410 - INFO - 成功响应-9，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:49:19,155 - INFO - 成功响应-9，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 14:49:23,857 - INFO - 成功响应-9，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 15:31:20,104 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-07 15:31:20,105 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-07 15:31:20,625 - DEBUG - Loading model cost 0.520 seconds.
+2025-07-07 15:31:20,625 - DEBUG - Prefix dict has been built successfully.
+2025-07-07 15:31:28,480 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/571928850
+2025-07-07 15:31:28,900 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/571928850
+2025-07-07 15:31:29,317 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/571928850
+2025-07-07 15:31:38,118 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20798a263774/page.htm)
+2025-07-07 15:31:39,905 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求_考研_希赛网 (https://www.educity.cn/kyyy/5297276.html)
+2025-07-07 15:31:40,298 - INFO - 成功处理结果: 2025上海工程技术大学研究生分数线（含2023-2024历年复试）_大学生必备网 (https://www.dxsbb.com/news/45580.html)
+2025-07-07 15:31:40,548 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://www.sohu.com/a/764366604_121123852)
+2025-07-07 15:31:42,071 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生复试分数线_上海工程技术大学研究生院 - 中国考研网 (https://www.chinakaoyan.com/graduate/info/nid/544303/schoolID/23.shtml)
+2025-07-07 15:31:46,957 - INFO - 成功响应-1，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 15:31:53,854 - INFO - 成功响应-2，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 15:31:59,104 - INFO - 成功响应-3，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 15:32:03,896 - INFO - 成功响应-4，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 15:32:08,638 - INFO - 成功响应-5，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 15:37:01,059 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://stackoverflow.com/questions/71973831/pycharm-and-or-numpy-randomly-breaks-even-when-nothing-changes
+2025-07-07 15:37:01,759 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://stackoverflow.com/questions/71973831/pycharm-and-or-numpy-randomly-breaks-even-when-nothing-changes
+2025-07-07 15:37:02,440 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://stackoverflow.com/questions/71973831/pycharm-and-or-numpy-randomly-breaks-even-when-nothing-changes
+2025-07-07 15:37:39,490 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-07 15:37:39,490 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-07 15:37:40,004 - DEBUG - Loading model cost 0.515 seconds.
+2025-07-07 15:37:40,004 - DEBUG - Prefix dict has been built successfully.
+2025-07-07 15:37:52,328 - WARNING - 获取网页内容失败 (尝试 1/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 15:37:53,308 - WARNING - 获取网页内容失败 (尝试 2/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 15:37:54,284 - WARNING - 获取网页内容失败 (尝试 3/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 15:37:56,920 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20798a263774/page.htm)
+2025-07-07 15:37:57,355 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://jcxy.sues.edu.cn/_t185/3a/8b/c26499a277131/page.htm)
+2025-07-07 15:37:58,848 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求_考研_希赛网 (https://www.educity.cn/kyyy/5297276.html)
+2025-07-07 15:37:59,091 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://www.sohu.com/a/764366604_121123852)
+2025-07-07 15:37:59,754 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生复试分数线_上海工程技术大学研究生院 - 中国考研网 (https://www.chinakaoyan.com/graduate/info/nid/544303/schoolID/23.shtml)
+2025-07-07 15:38:00,152 - INFO - 成功处理结果: 2025上海工程技术大学研究生分数线（含2023-2024历年复试）_大学生必备网 (https://www.dxsbb.com/news/45580.html)
+2025-07-07 15:38:00,628 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？—中国教育在线 (https://kaoyan.eol.cn/shanghai/yanzhao/202403/t20240315_2564768.shtml?fromcoop=weiruan)
+2025-07-07 15:38:01,596 - WARNING - 获取网页内容失败 (尝试 1/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 15:38:02,577 - WARNING - 获取网页内容失败 (尝试 2/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 15:38:03,559 - WARNING - 获取网页内容失败 (尝试 3/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 15:38:03,560 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？--中国教育在线 (https://m.eol.cn/kaoyan/202403/t20240315_2564768.shtml)
+2025-07-07 15:38:03,884 - INFO - 成功处理结果: 2024-2025年上海工程技术大学研究生分数线 (近2年分数线)_考研_新东方在线 (https://kaoyan.koolearn.com/20240618/1722243.html)
+2025-07-07 15:38:04,752 - INFO - 成功处理结果: 2024年上海工程技术大学各专业考研复试分数线一览表（含2023年）_学习力 (http://www.xuexili.com/kaoyan/79273.html)
+2025-07-07 15:38:12,101 - INFO - 成功响应-1，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 15:38:18,239 - INFO - 成功响应-2，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 15:38:26,772 - INFO - 成功响应-3，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 15:38:31,549 - INFO - 成功响应-4，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 15:38:37,568 - INFO - 成功响应-5，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 15:38:42,196 - INFO - 成功响应-6，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 15:38:48,491 - INFO - 成功响应-7，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 15:38:54,267 - INFO - 成功响应-8，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 15:39:07,735 - INFO - 成功响应-9，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 15:39:12,523 - INFO - 成功响应-10，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 16:34:07,161 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-07 16:34:07,162 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-07 16:34:07,711 - DEBUG - Loading model cost 0.549 seconds.
+2025-07-07 16:34:07,712 - DEBUG - Prefix dict has been built successfully.
+2025-07-07 16:34:24,871 - WARNING - 获取网页内容失败 (尝试 1/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 16:34:25,820 - WARNING - 获取网页内容失败 (尝试 2/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 16:34:26,781 - WARNING - 获取网页内容失败 (尝试 3/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 16:34:27,199 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20798a263774/page.htm)
+2025-07-07 16:34:27,628 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://jcxy.sues.edu.cn/3a/8b/c26499a277131/page.htm)
+2025-07-07 16:34:29,253 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求_考研_希赛网 (https://www.educity.cn/kyyy/5297276.html)
+2025-07-07 16:34:29,512 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://www.sohu.com/a/764366604_121123852)
+2025-07-07 16:34:30,177 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生复试分数线 - 中国考研网 (https://m.chinakaoyan.com/info/article/id/544303.shtml)
+2025-07-07 16:34:30,582 - INFO - 成功处理结果: 2025上海工程技术大学研究生分数线（含2023-2024历年复试）_大学生必备网 (https://www.dxsbb.com/news/45580.html)
+2025-07-07 16:34:31,057 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？—中国教育在线 (https://kaoyan.eol.cn/shanghai/yanzhao/202403/t20240315_2564768.shtml?fromcoop=weiruan)
+2025-07-07 16:34:32,037 - WARNING - 获取网页内容失败 (尝试 1/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 16:34:33,013 - WARNING - 获取网页内容失败 (尝试 2/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 16:34:33,959 - WARNING - 获取网页内容失败 (尝试 3/3): HTTPSConnectionPool(host='m.eol.cn', port=443): Max retries exceeded with url: /kaoyan/202403/t20240315_2564768.shtml (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)')))
+2025-07-07 16:34:33,959 - INFO - 成功处理结果: 上海工程技术大学2024年考研复试分数线是多少？--中国教育在线 (https://m.eol.cn/kaoyan/202403/t20240315_2564768.shtml)
+2025-07-07 16:34:34,296 - INFO - 成功处理结果: 2024-2025年上海工程技术大学研究生分数线 (近2年分数线)_考研_新东方在线 (https://kaoyan.koolearn.com/20240618/1722243.html)
+2025-07-07 16:34:35,243 - INFO - 成功处理结果: 2024年上海工程技术大学各专业考研复试分数线一览表（含2023年）_学习力 (http://www.xuexili.com/kaoyan/79273.html)
+2025-07-07 16:34:39,624 - INFO - 成功响应-1，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 16:34:44,100 - INFO - 成功响应-2，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 16:34:56,053 - INFO - 成功响应-3，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 16:35:00,419 - INFO - 成功响应-4，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 16:35:04,584 - INFO - 成功响应-5，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 16:35:09,977 - INFO - 成功响应-6，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 16:35:17,373 - INFO - 成功响应-7，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 16:35:22,293 - INFO - 成功响应-8，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 16:35:31,230 - INFO - 成功响应-9，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 16:35:35,692 - INFO - 成功响应-10，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 16:36:51,303 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/571928850
+2025-07-07 16:36:51,725 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/571928850
+2025-07-07 16:36:52,144 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/571928850
+2025-07-07 16:37:05,303 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-07 16:37:05,304 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-07 16:37:05,924 - DEBUG - Loading model cost 0.621 seconds.
+2025-07-07 16:37:05,925 - DEBUG - Prefix dict has been built successfully.
+2025-07-07 16:37:06,328 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:37:06,328 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'lower'
+2025-07-07 16:37:06,383 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:37:06,384 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'lower'
+2025-07-07 16:37:06,430 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:37:06,431 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'lower'
+2025-07-07 16:37:06,693 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:37:06,694 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'lower'
+2025-07-07 16:37:06,913 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:37:06,914 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'lower'
+2025-07-07 16:37:07,146 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:37:07,146 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'lower'
+2025-07-07 16:37:07,337 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:37:07,338 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'lower'
+2025-07-07 16:37:08,017 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:37:08,018 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'lower'
+2025-07-07 16:39:00,314 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-07 16:39:00,315 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-07 16:39:00,887 - DEBUG - Loading model cost 0.572 seconds.
+2025-07-07 16:39:00,888 - DEBUG - Prefix dict has been built successfully.
+2025-07-07 16:39:01,297 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:39:01,298 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'split'
+2025-07-07 16:39:01,349 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:39:01,350 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'split'
+2025-07-07 16:39:01,388 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:39:01,388 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'split'
+2025-07-07 16:39:01,712 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:39:01,712 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'split'
+2025-07-07 16:39:01,822 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:39:01,822 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'split'
+2025-07-07 16:39:02,732 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:39:02,732 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'split'
+2025-07-07 16:39:02,942 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:39:02,942 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'split'
+2025-07-07 16:39:03,676 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:39:03,677 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'split'
+2025-07-07 16:39:50,235 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-07 16:39:50,236 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-07 16:39:50,797 - DEBUG - Loading model cost 0.562 seconds.
+2025-07-07 16:39:50,797 - DEBUG - Prefix dict has been built successfully.
+2025-07-07 16:39:50,873 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:39:50,875 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'lower'
+2025-07-07 16:39:51,190 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:39:51,191 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'lower'
+2025-07-07 16:39:51,668 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:39:51,668 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'lower'
+2025-07-07 16:39:52,792 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:39:52,793 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'lower'
+2025-07-07 16:39:52,949 - ERROR - 提取过程中出错: name 'unescape' is not defined
+2025-07-07 16:39:52,950 - WARNING - 计算相关性得分时出错: 'NoneType' object has no attribute 'lower'
+2025-07-07 16:44:30,303 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-07 16:44:30,304 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-07 16:44:30,856 - DEBUG - Loading model cost 0.553 seconds.
+2025-07-07 16:44:30,857 - DEBUG - Prefix dict has been built successfully.
+2025-07-07 16:44:32,985 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://jcxy.sues.edu.cn/3a/8b/c26499a277131/page.htm)
+2025-07-07 16:44:32,992 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20696a263774/page.htm)
+2025-07-07 16:44:33,386 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://mp.weixin.qq.com/s?__biz=MjM5NjI2MjMzOQ==&mid=2649457465&idx=1&sn=48760af368b1f0b9f919a01d7851dec6&chksm=bef4db95898352837a3ee808e57b1857e4aa7c7f6c58e9d0faa2b005d48aab0ab600ded52beb&scene=27)
+2025-07-07 16:44:33,482 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生复试分数线_上海工程技术大学研究生院... (http://www.chinakaoyan.com/graduate/info/nid/544303/schoolID/23.shtml)
+2025-07-07 16:44:33,498 - INFO - 成功处理结果: 2024考研上海工程技术大学各专业复试分数线已公布_四川中公考研 (http://sc.kaoyan365.cn/yanzhaoxinxi/sckyfsx/47506.html)
+2025-07-07 16:44:33,515 - INFO - 成功处理结果: 「重磅!」2024年上海工程技术大学考研专业分数线及历年复试线全... (https://wappass.baidu.com/static/captcha/tuxing.html?ak=572be823e2f50ea759a616c060d6b9f1&backurl=https%3A%2F%2Fmbd.baidu.com%2Fnewspage%2Fdata%2Flandingsuper%3Fid%3D1808231521985871134%26wfr%3Dspider%26for%3Dpc%26third%3Dbaijiahao%26baijiahao_id%3D1808231521985871134%26c_source%3Dduedge%26c_score%3D0.999100&timestamp=1751877870&signature=95008b7cbd4b6379cdcfb54cae4c085b)
+2025-07-07 16:44:33,872 - INFO - 成功处理结果: 2024考研复试分数线 | 上海工程技术大学 (https://mp.weixin.qq.com/s?__biz=MzA3NTg1MTczNQ==&mid=2660121767&idx=2&sn=538d1fb90627dcc33c53a7e0986d1140&chksm=854e579db95599e995e025b0f1183b90388263bd57000060cf990c3d8f67d1306580dcdb1dd0&scene=27)
+2025-07-07 16:44:33,891 - INFO - 成功处理结果: 上海这些大学公布2024年考研复试分数线→ (https://wappass.baidu.com/static/captcha/tuxing.html?ak=572be823e2f50ea759a616c060d6b9f1&backurl=https%3A%2F%2Fmbd.baidu.com%2Fnewspage%2Fdata%2Flandingsuper%3Fid%3D1793657675520246079%26wfr%3Dspider%26for%3Dpc%26third%3Dbaijiahao%26baijiahao_id%3D1793657675520246079%26c_source%3Dduedge%26c_score%3D0.999100&timestamp=1751877871&signature=c3e4f5c9de9a47c4d8a00c1cd2b5ded7)
+2025-07-07 16:44:35,648 - INFO - 成功响应-1，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 16:44:37,912 - INFO - 成功响应-2，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 16:44:38,532 - WARNING - API请求失败 (尝试 1/3): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:44:40,261 - WARNING - API请求失败 (尝试 2/3): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:44:41,895 - WARNING - API请求失败 (尝试 3/3): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:44:41,895 - ERROR - 达到最大重试次数，请求失败
+2025-07-07 16:46:57,787 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-07 16:46:58,879 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-07 16:46:59,967 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-07 16:47:00,103 - WARNING - 获取网页内容失败 (尝试 1/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-07 16:47:01,169 - WARNING - 获取网页内容失败 (尝试 2/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-07 16:47:02,342 - WARNING - 获取网页内容失败 (尝试 3/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-07 16:47:04,898 - WARNING - 获取网页内容失败 (尝试 1/3): 468 Client Error:  for url: https://segmentfault.com/q/1010000043272627/a-1020000043272629
+2025-07-07 16:47:06,031 - WARNING - 获取网页内容失败 (尝试 2/3): 468 Client Error:  for url: https://segmentfault.com/q/1010000043272627/a-1020000043272629
+2025-07-07 16:47:07,163 - WARNING - 获取网页内容失败 (尝试 3/3): 468 Client Error:  for url: https://segmentfault.com/q/1010000043272627/a-1020000043272629
+2025-07-07 16:47:07,251 - WARNING - 获取网页内容失败 (尝试 1/3): 521 Server Error:  for url: https://blog.csdn.net/jiangshuanshuan/article/details/106114335
+2025-07-07 16:47:08,319 - WARNING - 获取网页内容失败 (尝试 2/3): 521 Server Error:  for url: https://blog.csdn.net/jiangshuanshuan/article/details/106114335
+2025-07-07 16:47:09,384 - WARNING - 获取网页内容失败 (尝试 3/3): 521 Server Error:  for url: https://blog.csdn.net/jiangshuanshuan/article/details/106114335
+2025-07-07 16:47:09,384 - ERROR - 提取过程中出错: 输入必须是字符串
+2025-07-07 16:47:09,385 - INFO - 成功处理结果: Miniconda3搭建python开发环境_miniconda3 py37-CSDN博客 (https://blog.csdn.net/jiangshuanshuan/article/details/106114335)
+2025-07-07 16:47:09,467 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-07 16:47:10,558 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-07 16:47:11,646 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-07 16:47:11,647 - ERROR - 提取过程中出错: 输入必须是字符串
+2025-07-07 16:47:11,647 - INFO - 成功处理结果: python-miniconda3环境配置与使用 - 知乎 (https://zhuanlan.zhihu.com/p/717540911)
+2025-07-07 16:47:11,655 - INFO - 成功处理结果: 安装Miniconda3并创建python虚拟环境_51CTO博客_python 安装虚拟... (https://blog.51cto.com/u_15127669/4375415)
+2025-07-07 16:47:11,757 - INFO - 成功处理结果: 使用Conda + Pip 创建 Python 开发环境的完整教程本教程按照图片... (https://juejin.cn/post/7484206491659485221)
+2025-07-07 16:47:11,822 - WARNING - 获取网页内容失败 (尝试 1/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-07 16:47:12,891 - WARNING - 获取网页内容失败 (尝试 2/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-07 16:47:13,960 - WARNING - 获取网页内容失败 (尝试 3/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-07 16:47:13,960 - ERROR - 提取过程中出错: 输入必须是字符串
+2025-07-07 16:47:13,961 - INFO - 成功处理结果: VS Code 远程连接服务器:Anaconda 环境与 Python/Jupyter 运行全指南... (https://blog.csdn.net/cocogogogo/article/details/147375050)
+2025-07-07 16:47:14,087 - WARNING - 获取网页内容失败 (尝试 1/3): 468 Client Error:  for url: https://segmentfault.com/q/1010000043272627/a-1020000043272629
+2025-07-07 16:47:22,044 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-07 16:47:22,045 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-07 16:47:22,589 - DEBUG - Loading model cost 0.545 seconds.
+2025-07-07 16:47:22,590 - DEBUG - Prefix dict has been built successfully.
+2025-07-07 16:47:24,749 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://jcxy.sues.edu.cn/3a/8b/c26499a277131/page.htm)
+2025-07-07 16:47:24,755 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20696a263774/page.htm)
+2025-07-07 16:47:25,207 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://mp.weixin.qq.com/s?__biz=MjM5NjI2MjMzOQ==&mid=2649457465&idx=1&sn=48760af368b1f0b9f919a01d7851dec6&chksm=bef4db95898352837a3ee808e57b1857e4aa7c7f6c58e9d0faa2b005d48aab0ab600ded52beb&scene=27)
+2025-07-07 16:47:25,348 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生复试分数线_上海工程技术大学研究生院... (http://www.chinakaoyan.com/graduate/info/nid/544303/schoolID/23.shtml)
+2025-07-07 16:47:25,361 - INFO - 成功处理结果: 2024考研上海工程技术大学各专业复试分数线已公布_四川中公考研 (http://sc.kaoyan365.cn/yanzhaoxinxi/sckyfsx/47506.html)
+2025-07-07 16:47:27,618 - INFO - 成功响应-1，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 16:47:30,050 - INFO - 成功响应-2，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 16:47:30,655 - WARNING - API请求失败 (尝试 1/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:47:32,226 - WARNING - API请求失败 (尝试 2/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:47:33,800 - WARNING - API请求失败 (尝试 3/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:47:35,381 - WARNING - API请求失败 (尝试 4/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:47:37,020 - WARNING - API请求失败 (尝试 5/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:47:38,673 - WARNING - API请求失败 (尝试 6/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:47:40,279 - WARNING - API请求失败 (尝试 7/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:47:41,905 - WARNING - API请求失败 (尝试 8/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:47:43,578 - WARNING - API请求失败 (尝试 9/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:47:45,288 - WARNING - API请求失败 (尝试 10/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:47:45,289 - ERROR - 达到最大重试次数，请求失败
+2025-07-07 16:49:07,687 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-07 16:49:07,688 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-07 16:49:08,294 - DEBUG - Loading model cost 0.606 seconds.
+2025-07-07 16:49:08,295 - DEBUG - Prefix dict has been built successfully.
+2025-07-07 16:49:10,318 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://jcxy.sues.edu.cn/3a/8b/c26499a277131/page.htm)
+2025-07-07 16:49:10,327 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20696a263774/page.htm)
+2025-07-07 16:49:10,706 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://mp.weixin.qq.com/s?__biz=MjM5NjI2MjMzOQ==&mid=2649457465&idx=1&sn=48760af368b1f0b9f919a01d7851dec6&chksm=bef4db95898352837a3ee808e57b1857e4aa7c7f6c58e9d0faa2b005d48aab0ab600ded52beb&scene=27)
+2025-07-07 16:49:10,817 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生复试分数线_上海工程技术大学研究生院... (http://www.chinakaoyan.com/graduate/info/nid/544303/schoolID/23.shtml)
+2025-07-07 16:49:10,839 - INFO - 成功处理结果: 2024考研上海工程技术大学各专业复试分数线已公布_四川中公考研 (http://sc.kaoyan365.cn/yanzhaoxinxi/sckyfsx/47506.html)
+2025-07-07 16:49:12,709 - INFO - 成功响应-1，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 16:49:15,977 - INFO - 成功响应-2，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-07 16:49:16,588 - WARNING - API请求失败 (尝试 1/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:49:18,251 - WARNING - API请求失败 (尝试 2/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:49:19,863 - WARNING - API请求失败 (尝试 3/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:49:21,589 - WARNING - API请求失败 (尝试 4/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:49:23,247 - WARNING - API请求失败 (尝试 5/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:49:24,952 - WARNING - API请求失败 (尝试 6/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:49:26,654 - WARNING - API请求失败 (尝试 7/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:49:28,293 - WARNING - API请求失败 (尝试 8/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:49:29,973 - WARNING - API请求失败 (尝试 9/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:49:31,632 - WARNING - API请求失败 (尝试 10/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:49:31,633 - ERROR - 达到最大重试次数，请求失败
+2025-07-07 16:51:02,423 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-07 16:51:02,424 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-07 16:51:02,963 - DEBUG - Loading model cost 0.539 seconds.
+2025-07-07 16:51:02,964 - DEBUG - Prefix dict has been built successfully.
+2025-07-07 16:51:05,732 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20696a263774/page.htm)
+2025-07-07 16:51:05,738 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c19709a263774/page.htm)
+2025-07-07 16:51:06,122 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://mp.weixin.qq.com/s?__biz=MzA5ODA0NjU4NA==&mid=2650765872&idx=1&sn=f65eed73ad170363956a0aa58785aba0&chksm=889c5d27bfebd4319926da2d21748a00a44a55f39ac1d8ba87d7ab078c173bacc56d8eeffb72&scene=27)
+2025-07-07 16:51:06,196 - INFO - 成功处理结果: ...考研复试分数线公布! #上海中医药大学考研 #上海工程技术大学... (https://www.douyin.com/video/7346836874415066409)
+2025-07-07 16:51:06,257 - INFO - 成功处理结果: 「重磅!」2024年上海工程技术大学考研专业分数线及历年复试线全... (https://wappass.baidu.com/static/captcha/tuxing.html?ak=572be823e2f50ea759a616c060d6b9f1&backurl=https%3A%2F%2Fmbd.baidu.com%2Fnewspage%2Fdata%2Flandingsuper%3Fid%3D1808231521985871134%26wfr%3Dspider%26for%3Dpc%26third%3Dbaijiahao%26baijiahao_id%3D1808231521985871134%26c_source%3Dduedge%26c_score%3D0.999100&timestamp=1751878262&signature=cfa1361713dd5879894c1050a398b39c)
+2025-07-07 16:51:07,896 - INFO - 成功响应-1，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 16:51:08,830 - INFO - 成功响应-2，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 16:51:09,487 - WARNING - API请求失败 (尝试 1/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:51:25,176 - WARNING - API请求失败 (尝试 2/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:51:40,833 - WARNING - API请求失败 (尝试 3/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:51:56,635 - WARNING - API请求失败 (尝试 4/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:52:12,387 - WARNING - API请求失败 (尝试 5/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:52:28,077 - WARNING - API请求失败 (尝试 6/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:52:43,743 - WARNING - API请求失败 (尝试 7/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:52:59,346 - WARNING - API请求失败 (尝试 8/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:53:14,954 - WARNING - API请求失败 (尝试 9/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:53:30,578 - WARNING - API请求失败 (尝试 10/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-07 16:53:30,579 - ERROR - 达到最大重试次数，请求失败
+2025-07-07 16:53:32,938 - INFO - 成功响应-4，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-07 16:53:36,208 - INFO - 成功响应-5，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-08 13:08:34,021 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-08 13:08:34,026 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-08 13:08:34,524 - DEBUG - Loading model cost 0.503 seconds.
+2025-07-08 13:08:34,525 - DEBUG - Prefix dict has been built successfully.
+2025-07-08 13:08:37,005 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://jcxy.sues.edu.cn/3a/8b/c26499a277131/page.htm)
+2025-07-08 13:08:37,011 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20696a263774/page.htm)
+2025-07-08 13:08:37,421 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://mp.weixin.qq.com/s?__biz=MjM5NjI2MjMzOQ==&mid=2649457465&idx=1&sn=48760af368b1f0b9f919a01d7851dec6&chksm=bef4db95898352837a3ee808e57b1857e4aa7c7f6c58e9d0faa2b005d48aab0ab600ded52beb&scene=27)
+2025-07-08 13:08:37,521 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生复试分数线_上海工程技术大学研究生院... (http://www.chinakaoyan.com/graduate/info/nid/544303/schoolID/23.shtml)
+2025-07-08 13:08:37,548 - INFO - 成功处理结果: 2024考研上海工程技术大学各专业复试分数线已公布_四川中公考研 (http://sc.kaoyan365.cn/yanzhaoxinxi/sckyfsx/47506.html)
+2025-07-08 13:08:43,232 - INFO - 成功响应-1，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-08 13:08:46,165 - INFO - 成功响应-2，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-08 13:08:46,749 - WARNING - API请求失败 (尝试 1/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-08 13:09:02,444 - WARNING - API请求失败 (尝试 2/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-08 13:09:18,201 - WARNING - API请求失败 (尝试 3/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-08 13:09:33,818 - WARNING - API请求失败 (尝试 4/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-08 13:09:49,496 - WARNING - API请求失败 (尝试 5/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-08 13:10:05,229 - WARNING - API请求失败 (尝试 6/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-08 13:10:20,920 - WARNING - API请求失败 (尝试 7/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-08 13:10:36,725 - WARNING - API请求失败 (尝试 8/10): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-08 13:14:53,154 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-08 13:14:53,155 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-08 13:14:53,651 - DEBUG - Loading model cost 0.496 seconds.
+2025-07-08 13:14:53,652 - DEBUG - Prefix dict has been built successfully.
+2025-07-08 13:14:55,746 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://jcxy.sues.edu.cn/3a/8b/c26499a277131/page.htm)
+2025-07-08 13:14:55,752 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20696a263774/page.htm)
+2025-07-08 13:14:56,102 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://mp.weixin.qq.com/s?__biz=MjM5NjI2MjMzOQ==&mid=2649457465&idx=1&sn=48760af368b1f0b9f919a01d7851dec6&chksm=bef4db95898352837a3ee808e57b1857e4aa7c7f6c58e9d0faa2b005d48aab0ab600ded52beb&scene=27)
+2025-07-08 13:14:56,204 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生复试分数线_上海工程技术大学研究生院... (http://www.chinakaoyan.com/graduate/info/nid/544303/schoolID/23.shtml)
+2025-07-08 13:14:56,217 - INFO - 成功处理结果: 2024考研上海工程技术大学各专业复试分数线已公布_四川中公考研 (http://sc.kaoyan365.cn/yanzhaoxinxi/sckyfsx/47506.html)
+2025-07-08 13:14:58,846 - INFO - 成功响应-1，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-08 13:15:00,951 - INFO - 成功响应-2，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-08 13:15:01,587 - WARNING - API请求失败 (尝试 1/3): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-08 13:15:17,255 - WARNING - API请求失败 (尝试 2/3): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-08 13:15:32,905 - WARNING - API请求失败 (尝试 3/3): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-08 13:15:32,906 - ERROR - 达到最大重试次数，请求失败
+2025-07-08 13:15:35,603 - INFO - 成功响应-4，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-08 13:15:38,863 - INFO - 成功响应-5，问题：2024年上海工程技术大学硕士研究生复试分数线
+2025-07-08 13:22:15,517 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-08 13:22:15,519 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-08 13:22:16,032 - DEBUG - Loading model cost 0.514 seconds.
+2025-07-08 13:22:16,033 - DEBUG - Prefix dict has been built successfully.
+2025-07-08 13:22:18,209 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://jcxy.sues.edu.cn/3a/8b/c26499a277131/page.htm)
+2025-07-08 13:22:18,215 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20696a263774/page.htm)
+2025-07-08 13:22:18,655 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://mp.weixin.qq.com/s?__biz=MjM5NjI2MjMzOQ==&mid=2649457465&idx=1&sn=48760af368b1f0b9f919a01d7851dec6&chksm=bef4db95898352837a3ee808e57b1857e4aa7c7f6c58e9d0faa2b005d48aab0ab600ded52beb&scene=27)
+2025-07-08 13:22:18,748 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生复试分数线_上海工程技术大学研究生院... (http://www.chinakaoyan.com/graduate/info/nid/544303/schoolID/23.shtml)
+2025-07-08 13:22:18,761 - INFO - 成功处理结果: 2024考研上海工程技术大学各专业复试分数线已公布_四川中公考研 (http://sc.kaoyan365.cn/yanzhaoxinxi/sckyfsx/47506.html)
+2025-07-08 13:22:18,779 - INFO - 成功处理结果: 「重磅!」2024年上海工程技术大学考研专业分数线及历年复试线全... (https://wappass.baidu.com/static/captcha/tuxing.html?ak=572be823e2f50ea759a616c060d6b9f1&backurl=https%3A%2F%2Fmbd.baidu.com%2Fnewspage%2Fdata%2Flandingsuper%3Fid%3D1808231521985871134%26wfr%3Dspider%26for%3Dpc%26third%3Dbaijiahao%26baijiahao_id%3D1808231521985871134%26c_source%3Dkunlun%26c_score%3D0.999100&timestamp=1751952136&signature=79c75d41fbd47263bb28b9efbcc80a1c)
+2025-07-08 13:22:19,179 - INFO - 成功处理结果: 2024考研复试分数线 | 上海工程技术大学 (https://mp.weixin.qq.com/s?__biz=MzA3NTg1MTczNQ==&mid=2660121767&idx=2&sn=538d1fb90627dcc33c53a7e0986d1140&chksm=854e579db95599e995e025b0f1183b90388263bd57000060cf990c3d8f67d1306580dcdb1dd0&scene=27)
+2025-07-08 13:22:19,200 - INFO - 成功处理结果: 上海这些大学公布2024年考研复试分数线→ (https://wappass.baidu.com/static/captcha/tuxing.html?ak=572be823e2f50ea759a616c060d6b9f1&backurl=https%3A%2F%2Fmbd.baidu.com%2Fnewspage%2Fdata%2Flandingsuper%3Fid%3D1793657675520246079%26wfr%3Dspider%26for%3Dpc%26third%3Dbaijiahao%26baijiahao_id%3D1793657675520246079%26c_source%3Dkunlun%26c_score%3D0.999100&timestamp=1751952136&signature=00f95840c01a5b6ff8f7cfdf381d928a)
+2025-07-08 13:24:13,723 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 13:24:14,776 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 13:24:15,884 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 13:24:16,006 - WARNING - 获取网页内容失败 (尝试 1/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-08 13:24:17,055 - WARNING - 获取网页内容失败 (尝试 2/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-08 13:24:18,112 - WARNING - 获取网页内容失败 (尝试 3/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-08 13:24:28,883 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-08 13:24:28,885 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-08 13:24:29,375 - DEBUG - Loading model cost 0.491 seconds.
+2025-07-08 13:24:29,376 - DEBUG - Prefix dict has been built successfully.
+2025-07-08 13:24:40,957 - WARNING - 解析跳转链接失败 (尝试 1/3): HTTPSConnectionPool(host='wappass.baidu.com', port=443): Read timed out. (read timeout=10)
+2025-07-08 13:24:42,408 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c19709a263774/page.htm)
+2025-07-08 13:24:42,415 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20696a263774/page.htm)
+2025-07-08 13:24:42,844 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://mp.weixin.qq.com/s?__biz=MzA5ODA0NjU4NA==&mid=2650765872&idx=1&sn=f65eed73ad170363956a0aa58785aba0&chksm=889c5d27bfebd4319926da2d21748a00a44a55f39ac1d8ba87d7ab078c173bacc56d8eeffb72&scene=27)
+2025-07-08 13:24:42,914 - INFO - 成功处理结果: ...考研复试分数线公布! #上海中医药大学考研 #上海工程技术大学... (https://www.douyin.com/video/7346836874415066409)
+2025-07-08 13:24:42,932 - INFO - 成功处理结果: 「重磅!」2024年上海工程技术大学考研专业分数线及历年复试线全... (https://wappass.baidu.com/static/captcha/tuxing.html?ak=572be823e2f50ea759a616c060d6b9f1&backurl=https%3A%2F%2Fmbd.baidu.com%2Fnewspage%2Fdata%2Flandingsuper%3Fid%3D1808231521985871134%26wfr%3Dspider%26for%3Dpc%26third%3Dbaijiahao%26baijiahao_id%3D1808231521985871134%26c_source%3Dkunlun%26c_score%3D0.999100&timestamp=1751952269&signature=43b6830027035de8d21a63c4f142994c)
+2025-07-08 13:24:42,947 - INFO - 成功处理结果: 2024年上海工程技术大学研究生分数线一览表(含2023年历年)_4221... (http://www.e4221.com/kaoyan/fenshuxian/31781.html)
+2025-07-08 13:24:42,955 - INFO - 成功处理结果: 上海工程技术大学 (https://career.sues.edu.cn/pros/identity/indexyrdw.action)
+2025-07-08 13:24:42,974 - INFO - 成功处理结果: 上海交大、上电、上中医、工程大、上科大2024年考研复试分数线... (https://wappass.baidu.com/static/captcha/tuxing.html?ak=572be823e2f50ea759a616c060d6b9f1&backurl=https%3A%2F%2Fmbd.baidu.com%2Fnewspage%2Fdata%2Flandingsuper%3Fid%3D1793661474386221413%26wfr%3Dspider%26for%3Dpc%26third%3Dbaijiahao%26baijiahao_id%3D1793661474386221413%26c_source%3Dkunlun%26c_score%3D0.999100&timestamp=1751952281&signature=0ac3bbecf72454e3937a392706641ba4)
+2025-07-08 13:27:39,950 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 13:27:40,999 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 13:27:42,048 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 13:27:42,167 - WARNING - 获取网页内容失败 (尝试 1/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-08 13:28:17,137 - INFO - SuesCenter 初始化完成
+2025-07-08 13:28:22,529 - INFO - 开始处理问题: 2024年上海工程技术大学研究生复试分数线
+2025-07-08 13:28:23,243 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-08 13:28:23,244 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-08 13:28:23,908 - DEBUG - Loading model cost 0.665 seconds.
+2025-07-08 13:28:23,908 - DEBUG - Prefix dict has been built successfully.
+2025-07-08 13:28:26,660 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20696a263774/page.htm)
+2025-07-08 13:28:26,667 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c19709a263774/page.htm)
+2025-07-08 13:28:27,185 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://mp.weixin.qq.com/s?__biz=MzA5ODA0NjU4NA==&mid=2650765872&idx=1&sn=f65eed73ad170363956a0aa58785aba0&chksm=889c5d27bfebd4319926da2d21748a00a44a55f39ac1d8ba87d7ab078c173bacc56d8eeffb72&scene=27)
+2025-07-08 13:28:27,242 - INFO - 成功处理结果: ...考研复试分数线公布! #上海中医药大学考研 #上海工程技术大学... (https://www.douyin.com/video/7346836874415066409)
+2025-07-08 13:28:27,264 - INFO - 成功处理结果: 「重磅!」2024年上海工程技术大学考研专业分数线及历年复试线全... (https://wappass.baidu.com/static/captcha/tuxing.html?ak=572be823e2f50ea759a616c060d6b9f1&backurl=https%3A%2F%2Fmbd.baidu.com%2Fnewspage%2Fdata%2Flandingsuper%3Fid%3D1808231521985871134%26wfr%3Dspider%26for%3Dpc%26third%3Dbaijiahao%26baijiahao_id%3D1808231521985871134%26c_source%3Dkunlun%26c_score%3D0.999100&timestamp=1751952503&signature=34c6069e7b24f5c1661c451c7d40434d)
+2025-07-08 13:28:27,278 - INFO - 成功处理结果: 2024年上海工程技术大学研究生分数线一览表(含2023年历年)_4221... (http://www.e4221.com/kaoyan/fenshuxian/31781.html)
+2025-07-08 13:28:27,317 - INFO - 成功处理结果: 2024上海工程技术大学各专业考研分数线一览表 历年复试线汇总... (http://m.gaosan.com/gaokao/819693.html)
+2025-07-08 13:28:27,331 - INFO - 成功处理结果: 2024上海工程技术大学(0786)考研分数线-2024上海工程技术大学... (https://yz.kaoyan365.cn/fenshuxian/list_sues_2024_03_0786_1.html)
+2025-07-08 13:28:27,358 - INFO - 成功处理结果: 上海交大、上电、上中医、工程大、上科大2024年考研复试分数线... (https://wappass.baidu.com/static/captcha/tuxing.html?ak=572be823e2f50ea759a616c060d6b9f1&backurl=https%3A%2F%2Fmbd.baidu.com%2Fnewspage%2Fdata%2Flandingsuper%3Fid%3D1793661474386221413%26wfr%3Dspider%26for%3Dpc%26third%3Dbaijiahao%26baijiahao_id%3D1793661474386221413%26c_source%3Dkunlun%26c_score%3D0.999100&timestamp=1751952503&signature=ea5d669993ccadc9562d84d77658b019)
+2025-07-08 13:28:27,360 - INFO - 问题处理完成: 2024年上海工程技术大学研究生复试分数线, 结果数: 9
+2025-07-08 13:29:18,367 - INFO - 开始处理问题: & D:/miniconda3/envs/sues_game/python.exe e:/我的论文和代码/Chemotherapy/ReNeLLM-main/sues_rag/sues_knowledge/sues_center.py
+2025-07-08 13:29:19,999 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 13:29:21,084 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 13:29:22,174 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 13:29:22,289 - WARNING - 获取网页内容失败 (尝试 1/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-08 13:29:23,337 - WARNING - 获取网页内容失败 (尝试 2/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-08 13:29:24,388 - WARNING - 获取网页内容失败 (尝试 3/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-08 13:29:26,659 - WARNING - 获取网页内容失败 (尝试 1/3): 468 Client Error:  for url: https://segmentfault.com/q/1010000043272627/a-1020000043272629
+2025-07-08 13:29:27,796 - WARNING - 获取网页内容失败 (尝试 2/3): 468 Client Error:  for url: https://segmentfault.com/q/1010000043272627/a-1020000043272629
+2025-07-08 13:29:28,929 - WARNING - 获取网页内容失败 (尝试 3/3): 468 Client Error:  for url: https://segmentfault.com/q/1010000043272627/a-1020000043272629
+2025-07-08 13:29:28,978 - WARNING - 获取网页内容失败 (尝试 1/3): 521 Server Error:  for url: https://blog.csdn.net/jiangshuanshuan/article/details/106114335
+2025-07-08 13:29:30,029 - WARNING - 获取网页内容失败 (尝试 2/3): 521 Server Error:  for url: https://blog.csdn.net/jiangshuanshuan/article/details/106114335
+2025-07-08 13:29:31,078 - WARNING - 获取网页内容失败 (尝试 3/3): 521 Server Error:  for url: https://blog.csdn.net/jiangshuanshuan/article/details/106114335
+2025-07-08 13:29:31,079 - ERROR - 提取过程中出错: 输入必须是字符串
+2025-07-08 13:29:31,079 - INFO - 成功处理结果: Miniconda3搭建python开发环境_miniconda3 py37-CSDN博客 (https://blog.csdn.net/jiangshuanshuan/article/details/106114335)
+2025-07-08 13:29:31,165 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 13:29:32,331 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 13:29:33,414 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 13:29:33,414 - ERROR - 提取过程中出错: 输入必须是字符串
+2025-07-08 13:29:33,414 - INFO - 成功处理结果: python-miniconda3环境配置与使用 - 知乎 (https://zhuanlan.zhihu.com/p/717540911)
+2025-07-08 13:29:33,426 - INFO - 成功处理结果: 安装Miniconda3并创建python虚拟环境_51CTO博客_python 安装虚拟... (https://blog.51cto.com/u_15127669/4375415)
+2025-07-08 13:29:33,510 - INFO - 成功处理结果: 使用Conda + Pip 创建 Python 开发环境的完整教程本教程按照图片... (https://juejin.cn/post/7484206491659485221)
+2025-07-08 13:29:33,558 - WARNING - 获取网页内容失败 (尝试 1/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-08 13:29:34,607 - WARNING - 获取网页内容失败 (尝试 2/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-08 13:29:35,657 - WARNING - 获取网页内容失败 (尝试 3/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-08 13:29:35,657 - ERROR - 提取过程中出错: 输入必须是字符串
+2025-07-08 13:29:35,657 - INFO - 成功处理结果: VS Code 远程连接服务器:Anaconda 环境与 Python/Jupyter 运行全指南... (https://blog.csdn.net/cocogogogo/article/details/147375050)
+2025-07-08 13:29:35,790 - WARNING - 获取网页内容失败 (尝试 1/3): 468 Client Error:  for url: https://segmentfault.com/q/1010000043272627/a-1020000043272629
+2025-07-08 13:29:36,928 - WARNING - 获取网页内容失败 (尝试 2/3): 468 Client Error:  for url: https://segmentfault.com/q/1010000043272627/a-1020000043272629
+2025-07-08 13:29:38,060 - WARNING - 获取网页内容失败 (尝试 3/3): 468 Client Error:  for url: https://segmentfault.com/q/1010000043272627/a-1020000043272629
+2025-07-08 13:29:38,060 - ERROR - 提取过程中出错: 输入必须是字符串
+2025-07-08 13:29:38,060 - INFO - 成功处理结果: python - 在 sublime text 3 中使用 conda 环境 - SegmentFault... (https://segmentfault.com/q/1010000043272627/a-1020000043272629)
+2025-07-08 13:29:38,169 - INFO - 成功处理结果: 【深度学习_环境(五)】miniconda + jupyter 安装教程+使用方法 - 学 ... (https://www.cnblogs.com/chacaxx/p/16552195.html)
+2025-07-08 13:29:38,651 - INFO - 成功处理结果: 问题:为何每次终端启动都需要执行 source ~/miniconda3/bin/... (https://ask.csdn.net/questions/8491386)
+2025-07-08 13:29:38,883 - INFO - 成功处理结果: 运用miniconda环境,vscode运行并切换jupyter内核 - 哔哩哔哩 (https://www.bilibili.com/opus/839762906369228808)
+2025-07-08 13:29:38,884 - INFO - 问题处理完成: & D:/miniconda3/envs/sues_game/python.exe e:/我的论文和代码/Chemotherapy/ReNeLLM-main/sues_rag/sues_knowledge/sues_center.py, 结果数: 9
+2025-07-08 13:29:49,649 - INFO - SuesCenter 初始化完成
