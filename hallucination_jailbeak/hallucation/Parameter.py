@@ -6,15 +6,15 @@ import os
 from dataclasses import dataclass
 
 # 定义项目根目录（所有路径基于此目录动态生成）
-BASE_DIR = r"E:/我的论文和代码/LLM_Study/hallucination_jailbeak"
+BASE_DIR = r"E:\my_code\LLM_Study\2025ACL_CHJ\CHJ\hallucination_jailbeak"
 
 @dataclass
 class Parameter:
-    chat_model_type: str = "Qwen/Qwen3-14B"
-    model_path: str = "Qwen3-14B"
-    judge_model: str = "Pro/deepseek-ai/DeepSeek-V3"
-    judge_model_key: str = "sk-zdgsvrykdfkoqymhzqnttceswdvmthjszzcdrreihanobfxr"
-    model_key: str = "sk-dpluqdhaptliuhmtnlvvkwrghbawhqczfqlremhpojyjbcxh"
+    chat_model_type: str = "Qwen/Qwen3-8B"
+    model_path: str = "Qwen3"
+    judge_model: str = "deepseek-ai/DeepSeek-V3"
+    judge_model_key: str = "sk-cxgbkcslxrnbujqrmkklgocmofbqzkguqdllxhbcyitndwbf"
+    jailbreak_key: str = "sk-nvifhtqcjbwnlzldxcbggpykvywajrghylundqsaqlvufdec"
     model_key_2: str = "sk-wrjmrfodxdmizbtjfagnfmetjfsqqcbcjjiwmyflnijgmjwm"
     other_key_1: str = "sk-ivaemxaqkivxbppefrbkzlcqhaahaldwgzttyxfdeuzjhume"
     other_key_2: str = "sk-jecqzrvjjccvpswqnnsvpgurnsnijsmgeufyxkmytcbnqghk"
@@ -22,11 +22,11 @@ class Parameter:
     other_key_4: str = "sk-eeitdlhtzcczxujrdinppsnpoxcdbabwhhcvjtsgxykjmsnn"
     other_key_5: str = "sk-xynaxnaqndimkbshtetngoqxadspdolkueefvumhyhtedsrm"
     model_base_url: str = "https://api.siliconflow.cn/v1/chat/completions"
-    max_tokens: int = 8192
-    temperature: float = 0.6
+    base_url: str = "https://api.siliconflow.cn/v1/"
+    max_tokens: int = 4096
+    temperature: float = 0.0
     enable_thinking: bool = True
-    thinking_budget: int = 4096
-    API_KEY: str = model_key
+    thinking_budget: int = 2048
     mode: str = "thinking"
     # 动态路径配置（基于BASE_DIR拼接）
     backend_dir: str = os.path.join(BASE_DIR, "result/function/")
@@ -35,4 +35,9 @@ class Parameter:
     AIME_PAP_PATH: str = os.path.join(BASE_DIR, "data/aime_pap.csv")
     METHOD: str = "false"
     run_count: int = 8
+
+    Jailbreak_backend_dir: str = os.path.join(BASE_DIR, "result/jailbreak_result/")
+    Jailbreak_DATA: str = os.path.join(BASE_DIR, "data/harmful_behaviors.csv")
+    Jailbreak_Method: str = "PAP"
+    Jailbreak_key:str = "sk-nvifhtqcjbwnlzldxcbggpykvywajrghylundqsaqlvufdec"
 Parameter_args = Parameter()

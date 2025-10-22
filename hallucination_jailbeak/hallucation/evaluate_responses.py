@@ -7,6 +7,7 @@ from tqdm import tqdm
 from prompt_utils import evaluate_prompt
 from Parameter import Parameter_args  # 导入全局配置
 
+
 def evaluate_response(question: str, model_response: str, correct_answer: str, api_key: str) -> bool:
     """评估响应
 
@@ -56,6 +57,8 @@ def evaluate_response(question: str, model_response: str, correct_answer: str, a
                 raise
             time.sleep(retry_delay * (attempt + 1))
             return False
+
+
 
 def load_responses(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
