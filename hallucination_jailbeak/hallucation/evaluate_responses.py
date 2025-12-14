@@ -68,7 +68,7 @@ def main():
     # 配置基础路径（从全局配置获取输出目录）
     base_dir = Parameter_args.backend_dir
     # 定义需要评估的文件编号范围（根据用户需求调整）
-    run_numbers = range(1, 9)  # 对应1-4号文件
+    run_numbers = range(6,9)  # 对应1-4号文件
     
     for run_number in run_numbers:
         # 动态生成输入输出路径
@@ -89,7 +89,7 @@ def main():
                     question=question,
                     model_response=content,
                     correct_answer=ground_truth,
-                    api_key=Parameter_args.judge_model_key  # 使用全局配置中的API密钥
+                    api_key=Parameter_args.motivation_key  # 使用全局配置中的API密钥
                 )
                 results.append({
                     "question": question,

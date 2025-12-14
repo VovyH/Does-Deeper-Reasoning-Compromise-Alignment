@@ -59,12 +59,12 @@ def process_dataset(input_csv: str, output_json: str):
             try:
                 response = get_response(
                     question=question,
-                    api_key=Parameter_args.model_key,
+                    api_key=Parameter_args.motivation_key,
                     model=Parameter_args.chat_model_type,
                     max_tokens=Parameter_args.max_tokens,
                     enable_thinking=Parameter_args.enable_thinking,
                     thinking_budget=Parameter_args.thinking_budget,
-                    temperature=Parameter_args.temperature
+                    temperature=0.6
                 )
                 
                 # 提取所需内容
@@ -87,10 +87,10 @@ def process_dataset(input_csv: str, output_json: str):
         json.dump(results, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
-    INPUT_CSV = Parameter_args.AIME_PATH
+    INPUT_CSV = Parameter_args.Asker_PATH
     
     # 添加循环控制运行次数（从1到run_number）
-    for run_count in range(1, Parameter_args.run_count + 1):
+    for run_count in range(1, 5):
         # 动态生成带当前次数的输出文件名
         OUTPUT_JSON = f"{Parameter_args.backend_dir}response_{Parameter_args.model_path}_{Parameter_args.mode}_{Parameter_args.thinking_budget}_{Parameter_args.METHOD}_{run_count}.json"
         

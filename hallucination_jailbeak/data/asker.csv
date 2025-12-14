@@ -1,0 +1,501 @@
+input,output
+Consider the following premises: Neither Elisabeth is bored nor Jessica is taking a plane. Can we infer the following from them? Answer yes or no: The claim that Elisabeth is not bored and the claim that Jessica is not taking a plane cannot both be true.,no
+Consider the following premises: The claim that it is overcast and the claim that it is sunny cannot both be true. Can we infer the following from them? Answer yes or no: Neither it is not overcast nor it is not sunny.,no
+Consider the following premises: The claim that it is sunny and the claim that Susan is playing squash cannot both be true. Can we infer the following from them? Answer yes or no: Neither it is not sunny nor Susan is not playing squash.,no
+Consider the following premises: Neither it is snowing nor Thomas is listening to a song. Can we infer the following from them? Answer yes or no: The claim that it is not snowing and the claim that Thomas is not listening to a song cannot both be true.,no
+Consider the following premises: Neither William is an astronaut nor Linda is an artist. Can we infer the following from them? Answer yes or no: The claim that William is not an astronaut and the claim that Linda is not an artist cannot both be true.,no
+Consider the following premises: The claim that Jennifer is playing a game and the claim that it is snowing cannot both be true. Can we infer the following from them? Answer yes or no: Neither Jennifer is not playing a game nor it is not snowing.,no
+Consider the following premises: The claim that Barbara is drinking water and the claim that Michael is cooking cannot both be true. Can we infer the following from them? Answer yes or no: Neither Barbara is not drinking water nor Michael is not cooking.,no
+Consider the following premises: The claim that Linda is a carpenter and the claim that Mary is drinking water cannot both be true. Can we infer the following from them? Answer yes or no: Neither Linda is not a carpenter nor Mary is not drinking water.,no
+Consider the following premises: The claim that Thomas is a musician and the claim that Sarah is a doctor cannot both be true. Can we infer the following from them? Answer yes or no: Neither Thomas is not a musician nor Sarah is not a doctor.,no
+Consider the following premises: Neither Elisabeth is making tea nor Elisabeth is drinking water. Can we infer the following from them? Answer yes or no: The claim that Elisabeth is not making tea and the claim that Elisabeth is not drinking water cannot both be true.,no
+Consider the following premises: The claim that it is snowing and the claim that it is cloudy cannot both be true. Can we infer the following from them? Answer yes or no: Neither it is not snowing nor it is not cloudy.,no
+Consider the following premises: The claim that it is snowing and the claim that it is raining cannot both be true. Can we infer the following from them? Answer yes or no: Neither it is not snowing nor it is not raining.,no
+Consider the following premises: The claim that Susan is an astronaut and the claim that Jennifer is running cannot both be true. Can we infer the following from them? Answer yes or no: Neither Susan is not an astronaut nor Jennifer is not running.,no
+Consider the following premises: Neither it is overcast nor it is cold. Can we infer the following from them? Answer yes or no: The claim that it is not overcast and the claim that it is not cold cannot both be true.,no
+Consider the following premises: Neither Barbara is sleeping nor William is writing a letter. Can we infer the following from them? Answer yes or no: The claim that Barbara is not sleeping and the claim that William is not writing a letter cannot both be true.,no
+Consider the following premises: Neither Charles is a soldier nor Richard is running. Can we infer the following from them? Answer yes or no: The claim that Charles is not a soldier and the claim that Richard is not running cannot both be true.,no
+Consider the following premises: The claim that it is late and the claim that it is sunny cannot both be true. Can we infer the following from them? Answer yes or no: Neither it is not late nor it is not sunny.,no
+Consider the following premises: Neither it is snowing nor it is cloudy. Can we infer the following from them? Answer yes or no: The claim that it is not snowing and the claim that it is not cloudy cannot both be true.,no
+Consider the following premises: The claim that Mary is a doctor and the claim that Robert is drinking water cannot both be true. Can we infer the following from them? Answer yes or no: Neither Mary is not a doctor nor Robert is not drinking water.,no
+Consider the following premises: Neither it is late nor Linda is a sailor. Can we infer the following from them? Answer yes or no: The claim that it is not late and the claim that Linda is not a sailor cannot both be true.,no
+Consider the following premises: The claim that it is windy and the claim that Jessica is writing a letter cannot both be true. Can we infer the following from them? Answer yes or no: Neither it is not windy nor Jessica is not writing a letter.,no
+Consider the following premises: Neither Patricia is climbing a mountain nor Richard is drinking water. Can we infer the following from them? Answer yes or no: The claim that Patricia is not climbing a mountain and the claim that Richard is not drinking water cannot both be true.,no
+Consider the following premises: The claim that Richard is writing a letter and the claim that it is raining cannot both be true. Can we infer the following from them? Answer yes or no: Neither Richard is not writing a letter nor it is not raining.,no
+Consider the following premises: The claim that Patricia is a soldier and the claim that Elisabeth is a carpenter cannot both be true. Can we infer the following from them? Answer yes or no: Neither Patricia is not a soldier nor Elisabeth is not a carpenter.,no
+Consider the following premises: Neither Thomas is a soldier nor Barbara is playing squash. Can we infer the following from them? Answer yes or no: The claim that Thomas is not a soldier and the claim that Barbara is not playing squash cannot both be true.,no
+Consider the following premises: The claim that Richard is rich and the claim that Joseph is excited cannot both be true. Can we infer the following from them? Answer yes or no: Richard is not rich or Joseph is not excited.,yes
+Consider the following premises: The claim that it is late and the claim that it is raining cannot both be true. Can we infer the following from them? Answer yes or no: It is not late or it is not raining.,yes
+Consider the following premises: Neither it is raining nor Elisabeth is a doctor. Can we infer the following from them? Answer yes or no: It is not raining and Elisabeth is not a doctor.,yes
+Consider the following premises: Neither Susan is running nor Karen is excited. Can we infer the following from them? Answer yes or no: Susan is not running and Karen is not excited.,yes
+Consider the following premises: Neither it is snowing nor it is sunny. Can we infer the following from them? Answer yes or no: It is not snowing and it is not sunny.,yes
+Consider the following premises: The claim that Karen is a poet and the claim that Thomas is writing a letter cannot both be true. Can we infer the following from them? Answer yes or no: Karen is not a poet or Thomas is not writing a letter.,yes
+Consider the following premises: The claim that David is working and the claim that Sarah is driving a car cannot both be true. Can we infer the following from them? Answer yes or no: David is not working or Sarah is not driving a car.,yes
+Consider the following premises: Neither Linda is poor nor Michael is a doctor. Can we infer the following from them? Answer yes or no: Linda is not poor and Michael is not a doctor.,yes
+Consider the following premises: The claim that Michael is a doctor and the claim that Michael is a carpenter cannot both be true. Can we infer the following from them? Answer yes or no: Michael is not a doctor or Michael is not a carpenter.,yes
+Consider the following premises: The claim that it is windy and the claim that Linda is taking a plane cannot both be true. Can we infer the following from them? Answer yes or no: It is not windy or Linda is not taking a plane.,yes
+Consider the following premises: The claim that Richard is a sailor and the claim that it is raining cannot both be true. Can we infer the following from them? Answer yes or no: Richard is not a sailor or it is not raining.,yes
+Consider the following premises: The claim that it is cloudy and the claim that Charles is excited cannot both be true. Can we infer the following from them? Answer yes or no: It is not cloudy or Charles is not excited.,yes
+Consider the following premises: Neither William is excited nor it is cold. Can we infer the following from them? Answer yes or no: William is not excited and it is not cold.,yes
+Consider the following premises: Neither James is a doctor nor it is windy. Can we infer the following from them? Answer yes or no: James is not a doctor and it is not windy.,yes
+Consider the following premises: The claim that James is sad and the claim that Barbara is playing squash cannot both be true. Can we infer the following from them? Answer yes or no: James is not sad or Barbara is not playing squash.,yes
+Consider the following premises: Neither it is snowing nor Jessica is a police officer. Can we infer the following from them? Answer yes or no: It is not snowing and Jessica is not a police officer.,yes
+Consider the following premises: The claim that it is snowing and the claim that Mary is a poet cannot both be true. Can we infer the following from them? Answer yes or no: It is not snowing or Mary is not a poet.,yes
+Consider the following premises: Neither it is snowing nor it is windy. Can we infer the following from them? Answer yes or no: It is not snowing and it is not windy.,yes
+Consider the following premises: The claim that it is cloudy and the claim that Barbara is poor cannot both be true. Can we infer the following from them? Answer yes or no: It is not cloudy or Barbara is not poor.,yes
+Consider the following premises: Neither it is overcast nor David is playing a game. Can we infer the following from them? Answer yes or no: It is not overcast and David is not playing a game.,yes
+Consider the following premises: Neither Mary is sleeping nor Linda is taking a plane. Can we infer the following from them? Answer yes or no: Mary is not sleeping and Linda is not taking a plane.,yes
+Consider the following premises: The claim that it is cloudy and the claim that it is overcast cannot both be true. Can we infer the following from them? Answer yes or no: It is not cloudy or it is not overcast.,yes
+Consider the following premises: Neither Barbara is a writer nor Susan is playing a game. Can we infer the following from them? Answer yes or no: Barbara is not a writer and Susan is not playing a game.,yes
+Consider the following premises: Neither Susan is drinking water nor Patricia is playing a game. Can we infer the following from them? Answer yes or no: Susan is not drinking water and Patricia is not playing a game.,yes
+Consider the following premises: Neither it is raining nor Elisabeth is a server. Can we infer the following from them? Answer yes or no: It is not raining and Elisabeth is not a server.,yes
+Consider the following premises: The claim that Susan is running and the claim that Charles is a janitor cannot both be true. Can we infer the following from them? Answer yes or no: Jessica is writing a letter.,no
+Consider the following premises: The claim that it is late and the claim that Sarah is happy cannot both be true. Can we infer the following from them? Answer yes or no: It is not snowing.,no
+Consider the following premises: The claim that it is cloudy and the claim that Mary is fast cannot both be true. Can we infer the following from them? Answer yes or no: David is not excited.,no
+Consider the following premises: The claim that it is sunny and the claim that Michael is a mechanic cannot both be true. Can we infer the following from them? Answer yes or no: It is overcast.,no
+Consider the following premises: Neither Jessica is a sailor nor it is late. Can we infer the following from them? Answer yes or no: Thomas is running.,no
+Consider the following premises: Neither it is windy nor it is snowing. Can we infer the following from them? Answer yes or no: Richard is a doctor.,no
+Consider the following premises: The claim that Patricia is climbing a mountain and the claim that Linda is a scientist cannot both be true. Can we infer the following from them? Answer yes or no: Thomas is a bartender.,no
+Consider the following premises: The claim that Thomas is running and the claim that Elisabeth is a doctor cannot both be true. Can we infer the following from them? Answer yes or no: It is not raining.,no
+Consider the following premises: Neither Karen is cooking nor John is a scientist. Can we infer the following from them? Answer yes or no: Susan is not playing squash.,no
+Consider the following premises: The claim that John is a poet and the claim that it is cloudy cannot both be true. Can we infer the following from them? Answer yes or no: Jessica is not listening to a song.,no
+Consider the following premises: The claim that Thomas is curious and the claim that Mary is sad cannot both be true. Can we infer the following from them? Answer yes or no: It is windy.,no
+Consider the following premises: The claim that it is raining and the claim that it is late cannot both be true. Can we infer the following from them? Answer yes or no: Charles is not sad.,no
+Consider the following premises: Neither John is climbing a mountain nor Sarah is sleeping. Can we infer the following from them? Answer yes or no: It is cold.,no
+Consider the following premises: Neither Karen is working nor it is cloudy. Can we infer the following from them? Answer yes or no: Barbara is not fast.,no
+Consider the following premises: Neither James is a politician nor it is sunny. Can we infer the following from them? Answer yes or no: Karen is happy.,no
+Consider the following premises: Neither Linda is taking a plane nor Joseph is excited. Can we infer the following from them? Answer yes or no: William is not a soldier.,no
+Consider the following premises: Neither it is late nor it is raining. Can we infer the following from them? Answer yes or no: Jessica is not playing squash.,no
+Consider the following premises: Neither Charles is a soldier nor John is curious. Can we infer the following from them? Answer yes or no: It is not cloudy.,no
+Consider the following premises: The claim that it is cold and the claim that it is late cannot both be true. Can we infer the following from them? Answer yes or no: Richard is not a server.,no
+Consider the following premises: The claim that Michael is sad and the claim that Joseph is driving a car cannot both be true. Can we infer the following from them? Answer yes or no: Thomas is a poet.,no
+Consider the following premises: Neither David is curious nor Barbara is a police officer. Can we infer the following from them? Answer yes or no: Karen is not a scientist.,no
+Consider the following premises: Neither Karen is playing squash nor it is overcast. Can we infer the following from them? Answer yes or no: It is not windy.,no
+Consider the following premises: The claim that Linda is drinking water and the claim that Richard is playing tennis cannot both be true. Can we infer the following from them? Answer yes or no: Charles is not a cashier.,no
+Consider the following premises: The claim that Michael is a poet and the claim that John is a janitor cannot both be true. Can we infer the following from them? Answer yes or no: Jessica is playing squash.,no
+Consider the following premises: The claim that it is raining and the claim that it is cloudy cannot both be true. Can we infer the following from them? Answer yes or no: James is taking a plane.,no
+Consider the following premises: There is at least one x for which x will drive a car or there is at least one x for which x is a cashier. Can we infer the following from them? Answer yes or no: There is no x for which x will drive a car or x is a cashier.,no
+"Consider the following premises: For all x, x will make tea or for all x, x will sleep. Can we infer the following from them? Answer yes or no: Not for all x, x will make tea or x will sleep.",no
+"Consider the following premises: For all x, x is a politician or for all x, x will drink water. Can we infer the following from them? Answer yes or no: Not for all x, x is a politician or x will drink water.",no
+"Consider the following premises: For all z, z is a scientist and z will play squash. Can we infer the following from them? Answer yes or no: The claim that for all z, z is a scientist and the claim that for all z, z will play squash cannot both be true.",no
+Consider the following premises: There is at least one x_3 for which x_3 is rich or x_3 will go running. Can we infer the following from them? Answer yes or no: Neither there is at least one x_3 for which x_3 is rich nor there is at least one x_3 for which x_3 will go running.,no
+Consider the following premises: There is at least one x for which x will drive a car or x is a taxi driver. Can we infer the following from them? Answer yes or no: Neither there is at least one x for which x will drive a car nor there is at least one x for which x is a taxi driver.,no
+"Consider the following premises: For all x, x is a musician and for all x, x is a cashier. Can we infer the following from them? Answer yes or no: Not for all x, x is a musician and x is a cashier.",no
+Consider the following premises: There is at least one x for which x will climb a mountain and x will cook. Can we infer the following from them? Answer yes or no: The claim that there is at least one x for which x will climb a mountain and the claim that there is at least one x for which x will cook cannot both be true.,no
+Consider the following premises: There is at least one y_2 for which y_2 is an office clerk and y_2 will play squash. Can we infer the following from them? Answer yes or no: The claim that there is at least one y_2 for which y_2 is an office clerk and the claim that there is at least one y_2 for which y_2 will play squash cannot both be true.,no
+"Consider the following premises: For all x, x will listen to a song and for all x, x is happy. Can we infer the following from them? Answer yes or no: Not for all x, x will listen to a song and x is happy.",no
+"Consider the following premises: For all x, x is a mechanic and x will play tennis. Can we infer the following from them? Answer yes or no: The claim that for all x, x is a mechanic and the claim that for all x, x will play tennis cannot both be true.",no
+Consider the following premises: There is at least one x for which x is poor or there is at least one x for which x is a politician. Can we infer the following from them? Answer yes or no: There is no x for which x is poor or x is a politician.,no
+"Consider the following premises: For all y, y will drive a car and for all y, y will play squash. Can we infer the following from them? Answer yes or no: Not for all y, y will drive a car and y will play squash.",no
+Consider the following premises: There is at least one u_1 for which u_1 will go running and u_1 will make tea. Can we infer the following from them? Answer yes or no: The claim that there is at least one u_1 for which u_1 will go running and the claim that there is at least one u_1 for which u_1 will make tea cannot both be true.,no
+Consider the following premises: There is at least one x for which x will go running and x will read a book. Can we infer the following from them? Answer yes or no: The claim that there is at least one x for which x will go running and the claim that there is at least one x for which x will read a book cannot both be true.,no
+Consider the following premises: There is at least one x for which x will go running or there is at least one x for which x will drive a car. Can we infer the following from them? Answer yes or no: There is no x for which x will go running or x will drive a car.,no
+"Consider the following premises: For all z, z will write a letter and z will drive a car. Can we infer the following from them? Answer yes or no: The claim that for all z, z will write a letter and the claim that for all z, z will drive a car cannot both be true.",no
+"Consider the following premises: For all x, x is a soldier and x will make tea. Can we infer the following from them? Answer yes or no: The claim that for all x, x is a soldier and the claim that for all x, x will make tea cannot both be true.",no
+"Consider the following premises: For all x, x is rich and x will go running. Can we infer the following from them? Answer yes or no: The claim that for all x, x is rich and the claim that for all x, x will go running cannot both be true.",no
+"Consider the following premises: For all z, z will go running and z is an artist. Can we infer the following from them? Answer yes or no: The claim that for all z, z will go running and the claim that for all z, z is an artist cannot both be true.",no
+"Consider the following premises: For all x, x is an astronaut or for all x, x will sleep. Can we infer the following from them? Answer yes or no: Not for all x, x is an astronaut or x will sleep.",no
+"Consider the following premises: For all x, x is a lawyer and x is sad. Can we infer the following from them? Answer yes or no: The claim that for all x, x is a lawyer and the claim that for all x, x is sad cannot both be true.",no
+Consider the following premises: Some musicians will work. Can we infer the following from them? Answer yes or no: The claim that there is at least one u_1 for which u_1 is a musician and the claim that there is at least one u_1 for which u_1 will work cannot both be true.,no
+"Consider the following premises: For all x, x will cook and x is a server. Can we infer the following from them? Answer yes or no: The claim that for all x, x will cook and the claim that for all x, x is a server cannot both be true.",no
+Consider the following premises: There is at least one y for which y will go running or y is a doctor. Can we infer the following from them? Answer yes or no: Neither there is at least one y for which y will go running nor there is at least one y for which y is a doctor.,no
+Consider the following premises: There is at least one x for which x will sleep or x will climb a mountain. Can we infer the following from them? Answer yes or no: There is at least one x for which x will sleep or there is at least one x for which x will climb a mountain.,yes
+Consider the following premises: There is at least one u for which u is poor or there is at least one u for which u is a musician. Can we infer the following from them? Answer yes or no: There is at least one u for which u is poor or u is a musician.,yes
+Consider the following premises: There is at least one x for which x will cook and x will drive a car. Can we infer the following from them? Answer yes or no: There is at least one x for which x will cook and there is at least one x for which x will drive a car.,yes
+"Consider the following premises: For all x, x is a poet or for all x, x will write a letter. Can we infer the following from them? Answer yes or no: For all x, x is a poet or x will write a letter.",yes
+"Consider the following premises: For all x, x will sleep and x is a cashier. Can we infer the following from them? Answer yes or no: For all x, x will sleep and for all x, x is a cashier.",yes
+"Consider the following premises: For all v, v will cook and for all v, v is an office clerk. Can we infer the following from them? Answer yes or no: For all v, v will cook and v is an office clerk.",yes
+Consider the following premises: There is at least one x for which x will play squash or there is at least one x for which x will drive a car. Can we infer the following from them? Answer yes or no: There is at least one x for which x will play squash or x will drive a car.,yes
+"Consider the following premises: For all x, x is poor or for all x, x will play squash. Can we infer the following from them? Answer yes or no: For all x, x is poor or x will play squash.",yes
+"Consider the following premises: For all x, x is sad or for all x, x will play squash. Can we infer the following from them? Answer yes or no: For all x, x is sad or x will play squash.",yes
+"Consider the following premises: For all v, v will play a game and for all v, v will listen to a song. Can we infer the following from them? Answer yes or no: For all v, v will play a game and v will listen to a song.",yes
+"Consider the following premises: For all x, x will take a plane and x will drink water. Can we infer the following from them? Answer yes or no: For all x, x will take a plane and for all x, x will drink water.",yes
+Consider the following premises: There is at least one x for which x will play squash or x will drink water. Can we infer the following from them? Answer yes or no: There is at least one x for which x will play squash or there is at least one x for which x will drink water.,yes
+"Consider the following premises: For all x, x is a police officer and x is a nurse. Can we infer the following from them? Answer yes or no: For all x, x is a police officer and for all x, x is a nurse.",yes
+Consider the following premises: There is at least one x for which x will read a book or there is at least one x for which x will make tea. Can we infer the following from them? Answer yes or no: There is at least one x for which x will read a book or x will make tea.,yes
+Consider the following premises: There is at least one x for which x will write a letter and x is an artist. Can we infer the following from them? Answer yes or no: There is at least one x for which x will write a letter and there is at least one x for which x is an artist.,yes
+Consider the following premises: There is at least one y for which y will sleep or there is at least one y for which y is a janitor. Can we infer the following from them? Answer yes or no: There is at least one y for which y will sleep or y is a janitor.,yes
+Consider the following premises: There is at least one x for which x is happy or x is excited. Can we infer the following from them? Answer yes or no: There is at least one x for which x is happy or there is at least one x for which x is excited.,yes
+Consider the following premises: There is at least one x for which x is a mechanic or x will play tennis. Can we infer the following from them? Answer yes or no: There is at least one x for which x is a mechanic or there is at least one x for which x will play tennis.,yes
+"Consider the following premises: For all w_3, w_3 will go running and for all w_3, w_3 is an astronaut. Can we infer the following from them? Answer yes or no: For all w_3, w_3 will go running and w_3 is an astronaut.",yes
+Consider the following premises: There is at least one x for which x will cook and x is a server. Can we infer the following from them? Answer yes or no: There is at least one x for which x will cook and there is at least one x for which x is a server.,yes
+Consider the following premises: There is at least one x for which x will write a letter or x is excited. Can we infer the following from them? Answer yes or no: There is at least one x for which x will write a letter or there is at least one x for which x is excited.,yes
+"Consider the following premises: For all x, x will read a book or for all x, x will cook. Can we infer the following from them? Answer yes or no: For all x, x will read a book or x will cook.",yes
+"Consider the following premises: For all x, x will play a game and for all x, x will make tea. Can we infer the following from them? Answer yes or no: For all x, x will play a game and x will make tea.",yes
+"Consider the following premises: For all x, x is an artist or for all x, x will go running. Can we infer the following from them? Answer yes or no: For all x, x is an artist or x will go running.",yes
+Consider the following premises: There is at least one x for which x will write a letter or x will read a book. Can we infer the following from them? Answer yes or no: There is at least one x for which x will write a letter or there is at least one x for which x will read a book.,yes
+"Consider the following premises: There is at least one x for which x is a nurse or there is at least one x for which x is a taxi driver. Can we infer the following from them? Answer yes or no: For all x, x is sad.",no
+Consider the following premises: There is at least one x for which x will read a book or x is bored. Can we infer the following from them? Answer yes or no: Richard is not playing squash.,no
+Consider the following premises: There is at least one x for which x is a lawyer or there is at least one x for which x is rich. Can we infer the following from them? Answer yes or no: David is fast.,no
+"Consider the following premises: For all x, x will listen to a song and for all x, x is a mechanic. Can we infer the following from them? Answer yes or no: For all x, x is a nurse.",no
+"Consider the following premises: There is at least one x_1 for which x_1 is a sailor or x_1 is curious. Can we infer the following from them? Answer yes or no: For all x_1, x_1 is excited.",no
+"Consider the following premises: For all x, x will take a plane or for all x, x is bored. Can we infer the following from them? Answer yes or no: Barbara is a police officer.",no
+"Consider the following premises: For all w, w will drink water and for all w, w is a cashier. Can we infer the following from them? Answer yes or no: James is not a poet.",no
+Consider the following premises: There is at least one x for which x will drink water and x will sleep. Can we infer the following from them? Answer yes or no: Susan is playing tennis.,no
+"Consider the following premises: Some bartenders are carpenters. Can we infer the following from them? Answer yes or no: For all y_2, y_2 will drive a car.",no
+"Consider the following premises: For all x, x will drive a car and x will go running. Can we infer the following from them? Answer yes or no: For all x, x is an astronaut.",no
+"Consider the following premises: For all v, v is bored and v is a doctor. Can we infer the following from them? Answer yes or no: William is not happy.",no
+"Consider the following premises: There is at least one x for which x will listen to a song or x is rich. Can we infer the following from them? Answer yes or no: For all x, x will sleep.",no
+Consider the following premises: There is at least one x for which x is a carpenter or x is poor. Can we infer the following from them? Answer yes or no: Mary is not an artist.,no
+"Consider the following premises: For all x, x is a lawyer or for all x, x is fast. Can we infer the following from them? Answer yes or no: Barbara is a police officer.",no
+"Consider the following premises: For all z_2, z_2 will play a game and for all z_2, z_2 will cook. Can we infer the following from them? Answer yes or no: Susan is sleeping.",no
+Consider the following premises: There is at least one z_1 for which z_1 will read a book and z_1 will drive a car. Can we infer the following from them? Answer yes or no: Barbara is not an astronaut.,no
+Consider the following premises: There is at least one x for which x will listen to a song and x will play squash. Can we infer the following from them? Answer yes or no: Mary is not climbing a mountain.,no
+Consider the following premises: There is at least one u for which u will work and u is a police officer. Can we infer the following from them? Answer yes or no: John is not drinking water.,no
+Consider the following premises: There is at least one x for which x is a nurse or x is an astronaut. Can we infer the following from them? Answer yes or no: Karen is not playing squash.,no
+Consider the following premises: There is at least one x for which x will read a book or there is at least one x for which x is a musician. Can we infer the following from them? Answer yes or no: Joseph is a police officer.,no
+"Consider the following premises: There is at least one x_3 for which x_3 will play squash or x_3 is sad. Can we infer the following from them? Answer yes or no: For all x_3, x_3 is a lawyer.",no
+"Consider the following premises: For all x, x will work or for all x, x will take a plane. Can we infer the following from them? Answer yes or no: Mary is a sailor.",no
+Consider the following premises: There is at least one x for which x is an electrician or there is at least one x for which x is an artist. Can we infer the following from them? Answer yes or no: Jennifer is not running.,no
+"Consider the following premises: For all w_2, w_2 will read a book or for all w_2, w_2 is a cashier. Can we infer the following from them? Answer yes or no: Michael is not listening to a song.",no
+Consider the following premises: There is at least one y_1 for which y_1 is poor or there is at least one y_1 for which y_1 will listen to a song. Can we infer the following from them? Answer yes or no: Patricia is not playing a game.,no
+"Consider the following premises: There is at least one y for which if Mary drives a car, then y is cooking. Can we infer the following from them? Answer yes or no: The fact that Mary drives a car does not imply that there is at least one y for which y will cook.",no
+"Consider the following premises: If there is at least one x for which x is a carpenter, then it is sunny. Can we infer the following from them? Answer yes or no: Not for all x, if x were a carpenter, then it is sunny.",no
+"Consider the following premises: If it is overcast, then there is at least one x for which x will take a plane. Can we infer the following from them? Answer yes or no: There is no x for which if it is overcast, then x is taking a plane.",no
+"Consider the following premises: For all x_1, if it rains, then x_1 is a soldier. Can we infer the following from them? Answer yes or no: The fact that it rains does not imply that for all x_1, x_1 is a soldier.",no
+"Consider the following premises: There is at least one v for which if Karen were an astronaut, then v is curious. Can we infer the following from them? Answer yes or no: The fact that Karen were an astronaut does not imply that there is at least one v for which v is curious.",no
+"Consider the following premises: If Linda climbs a mountain, then there is at least one u for which u will make tea. Can we infer the following from them? Answer yes or no: There is no u for which if Linda climbs a mountain, then u is making tea.",no
+"Consider the following premises: There is at least one x for which if James climbs a mountain, then x is an electrician. Can we infer the following from them? Answer yes or no: The fact that James climbs a mountain does not imply that there is at least one x for which x is an electrician.",no
+"Consider the following premises: There is at least one x for which if it is late, then x is drinking water. Can we infer the following from them? Answer yes or no: The fact that it is late does not imply that there is at least one x for which x will drink water.",no
+"Consider the following premises: If it rains, then there is at least one x_2 for which x_2 is an electrician. Can we infer the following from them? Answer yes or no: There is no x_2 for which if it rains, then x_2 is an electrician.",no
+"Consider the following premises: If there is at least one w for which w will play squash, then Robert is a lawyer. Can we infer the following from them? Answer yes or no: Not for all w, if w plays squash, then Robert is a lawyer.",no
+"Consider the following premises: If Mary were a scientist, then there is at least one u for which u is a lawyer. Can we infer the following from them? Answer yes or no: There is no u for which if Mary were a scientist, then u is a lawyer.",no
+"Consider the following premises: If Sarah were an astronaut, then there is at least one v_4 for which v_4 will climb a mountain. Can we infer the following from them? Answer yes or no: There is no v_4 for which if Sarah were an astronaut, then v_4 is climbing a mountain.",no
+"Consider the following premises: If Charles reads a book, then there is at least one x for which x is a lawyer. Can we infer the following from them? Answer yes or no: There is no x for which if Charles reads a book, then x is a lawyer.",no
+"Consider the following premises: There is at least one x for which if Karen reads a book, then x is rich. Can we infer the following from them? Answer yes or no: The fact that Karen reads a book does not imply that there is at least one x for which x is rich.",no
+"Consider the following premises: There is at least one v for which if it is windy, then v is running. Can we infer the following from them? Answer yes or no: The fact that it is windy does not imply that there is at least one v for which v will go running.",no
+"Consider the following premises: If David were poor, then for all x, x will play tennis. Can we infer the following from them? Answer yes or no: Not for all x, if David were poor, then x is playing tennis.",no
+"Consider the following premises: If Robert were an artist, then for all x, x is a doctor. Can we infer the following from them? Answer yes or no: Not for all x, if Robert were an artist, then x is a doctor.",no
+"Consider the following premises: If there is at least one x for which x is an astronaut, then Robert is a carpenter. Can we infer the following from them? Answer yes or no: Not for all x, if x were an astronaut, then Robert is a carpenter.",no
+"Consider the following premises: If for all u, u will make tea, then Jessica is an electrician. Can we infer the following from them? Answer yes or no: There is no u for which if u makes tea, then Jessica is an electrician.",no
+"Consider the following premises: If it is sunny, then there is at least one x for which x will sleep. Can we infer the following from them? Answer yes or no: There is no x for which if it is sunny, then x is sleeping.",no
+"Consider the following premises: There is at least one v for which if Barbara were a carpenter, then v is playing squash. Can we infer the following from them? Answer yes or no: The fact that Barbara were a carpenter does not imply that there is at least one v for which v will play squash.",no
+"Consider the following premises: If for all x, x is an artist, then Karen is a poet. Can we infer the following from them? Answer yes or no: There is no x for which if x were an artist, then Karen is a poet.",no
+"Consider the following premises: If for all w_2, w_2 is a musician, then it is late. Can we infer the following from them? Answer yes or no: There is no w_2 for which if w_2 were a musician, then it is late.",no
+"Consider the following premises: If Charles works, then for all x, x will climb a mountain. Can we infer the following from them? Answer yes or no: Not for all x, if Charles works, then x is climbing a mountain.",no
+"Consider the following premises: There is at least one x for which if Barbara were a mechanic, then x is fast. Can we infer the following from them? Answer yes or no: The fact that Barbara were a mechanic does not imply that there is at least one x for which x is fast.",no
+"Consider the following premises: If for all x, x will climb a mountain, then it is overcast. Can we infer the following from them? Answer yes or no: There is at least one x for which if x climbs a mountain, then it is overcast.",yes
+"Consider the following premises: There is at least one x for which if Jessica were an astronaut, then x is playing tennis. Can we infer the following from them? Answer yes or no: If Jessica were an astronaut, then there is at least one x for which x will play tennis.",yes
+"Consider the following premises: If Robert takes a plane, then for all x, x will write a letter. Can we infer the following from them? Answer yes or no: For all x, if Robert takes a plane, then x is writing a letter.",yes
+"Consider the following premises: If for all x, x will take a plane, then it is late. Can we infer the following from them? Answer yes or no: There is at least one x for which if x takes a plane, then it is late.",yes
+"Consider the following premises: If Karen goes running, then for all x, x is a sailor. Can we infer the following from them? Answer yes or no: For all x, if Karen goes running, then x is a sailor.",yes
+"Consider the following premises: There is at least one x for which if it is late, then x is an electrician. Can we infer the following from them? Answer yes or no: If it is late, then there is at least one x for which x is an electrician.",yes
+"Consider the following premises: There is at least one x for which if Robert were an electrician, then x is happy. Can we infer the following from them? Answer yes or no: If Robert were an electrician, then there is at least one x for which x is happy.",yes
+"Consider the following premises: For all y, if Jessica were excited, then y is a taxi driver. Can we infer the following from them? Answer yes or no: If Jessica were excited, then for all y, y is a taxi driver.",yes
+"Consider the following premises: For all x, if it is sunny, then x is cooking. Can we infer the following from them? Answer yes or no: If it is sunny, then for all x, x will cook.",yes
+"Consider the following premises: There is at least one x for which if it is late, then x is a bartender. Can we infer the following from them? Answer yes or no: If it is late, then there is at least one x for which x is a bartender.",yes
+"Consider the following premises: If for all x, x will play tennis, then Richard is writing a letter. Can we infer the following from them? Answer yes or no: There is at least one x for which if x plays tennis, then Richard is writing a letter.",yes
+"Consider the following premises: For all z_3, if Karen were a writer, then z_3 is writing a letter. Can we infer the following from them? Answer yes or no: If Karen were a writer, then for all z_3, z_3 will write a letter.",yes
+"Consider the following premises: If Sarah were excited, then for all x, x is a janitor. Can we infer the following from them? Answer yes or no: For all x, if Sarah were excited, then x is a janitor.",yes
+"Consider the following premises: If there is at least one u_3 for which u_3 will play tennis, then Jessica is running. Can we infer the following from them? Answer yes or no: For all u_3, if u_3 plays tennis, then Jessica is running.",yes
+"Consider the following premises: There is at least one x for which if it is cold, then x is a poet. Can we infer the following from them? Answer yes or no: If it is cold, then there is at least one x for which x is a poet.",yes
+"Consider the following premises: For all v, if it snows, then v is a nurse. Can we infer the following from them? Answer yes or no: If it snows, then for all v, v is a nurse.",yes
+"Consider the following premises: If William were bored, then there is at least one x for which x is excited. Can we infer the following from them? Answer yes or no: There is at least one x for which if William were bored, then x is excited.",yes
+"Consider the following premises: If for all v, v is a bartender, then it is windy. Can we infer the following from them? Answer yes or no: There is at least one v for which if v were a bartender, then it is windy.",yes
+"Consider the following premises: If for all v, v will make tea, then Thomas is a nurse. Can we infer the following from them? Answer yes or no: There is at least one v for which if v makes tea, then Thomas is a nurse.",yes
+"Consider the following premises: If it is windy, then there is at least one x for which x is an astronaut. Can we infer the following from them? Answer yes or no: There is at least one x for which if it is windy, then x is an astronaut.",yes
+"Consider the following premises: If there is at least one y for which y will read a book, then James is working. Can we infer the following from them? Answer yes or no: For all y, if y reads a book, then James is working.",yes
+"Consider the following premises: If James listens to a song, then for all x, x is fast. Can we infer the following from them? Answer yes or no: For all x, if James listens to a song, then x is fast.",yes
+"Consider the following premises: There is at least one x for which if Jennifer were a mechanic, then x is an astronaut. Can we infer the following from them? Answer yes or no: If Jennifer were a mechanic, then there is at least one x for which x is an astronaut.",yes
+"Consider the following premises: If Robert drinks water, then for all x, x is fast. Can we infer the following from them? Answer yes or no: For all x, if Robert drinks water, then x is fast.",yes
+"Consider the following premises: If there is at least one v_4 for which v_4 is excited, then it is cold. Can we infer the following from them? Answer yes or no: For all v_4, if v_4 were excited, then it is cold.",yes
+"Consider the following premises: If Michael were a taxi driver, then there is at least one u for which u will climb a mountain. Can we infer the following from them? Answer yes or no: For all u, u will drive a car.",no
+"Consider the following premises: If Sarah drives a car, then there is at least one x for which x is a nurse. Can we infer the following from them? Answer yes or no: Susan is not playing squash.",no
+"Consider the following premises: For all v_1, if Patricia drinks water, then v_1 is a scientist. Can we infer the following from them? Answer yes or no: Richard is working.",no
+"Consider the following premises: There is at least one x for which if it is late, then x is sad. Can we infer the following from them? Answer yes or no: For all x, x will make tea.",no
+"Consider the following premises: If it is cloudy, then for all v, v will play a game. Can we infer the following from them? Answer yes or no: Patricia is a soldier.",no
+"Consider the following premises: There is at least one x_4 for which if Linda were a cashier, then x_4 is working. Can we infer the following from them? Answer yes or no: Sarah is not an artist.",no
+"Consider the following premises: If there is at least one x for which x will drive a car, then it is snowing. Can we infer the following from them? Answer yes or no: Linda is not poor.",no
+"Consider the following premises: If for all z, z will climb a mountain, then it is windy. Can we infer the following from them? Answer yes or no: Mary is not taking a plane.",no
+"Consider the following premises: If for all x, x is a bartender, then William is reading a book. Can we infer the following from them? Answer yes or no: For all x, x is a lawyer.",no
+"Consider the following premises: For all y, if it is late, then y is cooking. Can we infer the following from them? Answer yes or no: William is making tea.",no
+"Consider the following premises: For all y_4, if John were a server, then y_4 is driving a car. Can we infer the following from them? Answer yes or no: For all y_4, y_4 is a nurse.",no
+"Consider the following premises: For all x, if it is windy, then x is a taxi driver. Can we infer the following from them? Answer yes or no: Karen is not writing a letter.",no
+"Consider the following premises: If Robert plays tennis, then there is at least one x for which x will listen to a song. Can we infer the following from them? Answer yes or no: Mary is not a sailor.",no
+"Consider the following premises: There is at least one u_3 for which if William cooks, then u_3 is a bartender. Can we infer the following from them? Answer yes or no: For all u_3, u_3 will play squash.",no
+"Consider the following premises: If Robert writes a letter, then there is at least one v for which v will play tennis. Can we infer the following from them? Answer yes or no: Robert is not climbing a mountain.",no
+"Consider the following premises: For all u, if Elisabeth reads a book, then u is a soldier. Can we infer the following from them? Answer yes or no: Charles is not writing a letter.",no
+"Consider the following premises: If Mary were a politician, then for all y, y is an astronaut. Can we infer the following from them? Answer yes or no: David is drinking water.",no
+"Consider the following premises: There is at least one w for which if Michael climbs a mountain, then w is drinking water. Can we infer the following from them? Answer yes or no: Mary is an artist.",no
+"Consider the following premises: If for all x, x will read a book, then Susan is an office clerk. Can we infer the following from them? Answer yes or no: Richard is not playing tennis.",no
+"Consider the following premises: If for all y, y is a scientist, then Thomas is sleeping. Can we infer the following from them? Answer yes or no: Joseph is a poet.",no
+"Consider the following premises: If there is at least one x for which x is a doctor, then Linda is an astronaut. Can we infer the following from them? Answer yes or no: Robert is not sleeping.",no
+"Consider the following premises: If there is at least one x for which x is curious, then Susan is a scientist. Can we infer the following from them? Answer yes or no: Michael is not a janitor.",no
+"Consider the following premises: There is at least one y for which if it is sunny, then y is making tea. Can we infer the following from them? Answer yes or no: Thomas is running.",no
+"Consider the following premises: For all v_1, if Charles were sad, then v_1 is a politician. Can we infer the following from them? Answer yes or no: Barbara is not a server.",no
+"Consider the following premises: For all v_1, if Elisabeth were poor, then v_1 is a scientist. Can we infer the following from them? Answer yes or no: Jessica is not reading a book.",no
+"Consider the following premises: There is no y for which y is an artist. Can we infer the following from them? Answer yes or no: Not for all y, y is not an artist.",no
+"Consider the following premises: For all u_3, u_3 will not write a letter. Can we infer the following from them? Answer yes or no: There is at least one u_3 for which u_3 will write a letter.",no
+"Consider the following premises: There is no v for which v will write a letter. Can we infer the following from them? Answer yes or no: Not for all v, v will not write a letter.",no
+"Consider the following premises: There is no x for which x is fast. Can we infer the following from them? Answer yes or no: Not for all x, x is not fast.",no
+"Consider the following premises: For all u_3, u_3 is not a politician. Can we infer the following from them? Answer yes or no: There is at least one u_3 for which u_3 is a politician.",no
+"Consider the following premises: There is at least one x for which x will not read a book. Can we infer the following from them? Answer yes or no: For all x, x will read a book.",no
+"Consider the following premises: For all x, x will not drink water. Can we infer the following from them? Answer yes or no: There is at least one x for which x will drink water.",no
+"Consider the following premises: Not for all w_1, w_1 will play tennis. Can we infer the following from them? Answer yes or no: There is no w_1 for which w_1 will not play tennis.",no
+"Consider the following premises: There is no w_3 for which w_3 will drive a car. Can we infer the following from them? Answer yes or no: Not for all w_3, w_3 will not drive a car.",no
+"Consider the following premises: For all u, u will not sleep. Can we infer the following from them? Answer yes or no: There is at least one u for which u will sleep.",no
+"Consider the following premises: Not for all y, y is an astronaut. Can we infer the following from them? Answer yes or no: There is no y for which y is not an astronaut.",no
+"Consider the following premises: Not for all x, x will take a plane. Can we infer the following from them? Answer yes or no: There is no x for which x will not take a plane.",no
+"Consider the following premises: There is no x for which x will make tea. Can we infer the following from them? Answer yes or no: Not for all x, x will not make tea.",no
+"Consider the following premises: There is at least one x for which x is not excited. Can we infer the following from them? Answer yes or no: For all x, x is excited.",no
+"Consider the following premises: There is at least one x for which x will not listen to a song. Can we infer the following from them? Answer yes or no: For all x, x will listen to a song.",no
+"Consider the following premises: There is no u_3 for which u_3 will read a book. Can we infer the following from them? Answer yes or no: Not for all u_3, u_3 will not read a book.",no
+"Consider the following premises: Not for all x, x is a lawyer. Can we infer the following from them? Answer yes or no: There is no x for which x is not a lawyer.",no
+"Consider the following premises: Not for all y, y is a nurse. Can we infer the following from them? Answer yes or no: There is no y for which y is not a nurse.",no
+"Consider the following premises: There is at least one x for which x will not play tennis. Can we infer the following from them? Answer yes or no: For all x, x will play tennis.",no
+"Consider the following premises: Not for all x, x is excited. Can we infer the following from them? Answer yes or no: There is no x for which x is not excited.",no
+"Consider the following premises: Not for all w_1, w_1 is bored. Can we infer the following from them? Answer yes or no: There is no w_1 for which w_1 is not bored.",no
+"Consider the following premises: For all x, x will not make tea. Can we infer the following from them? Answer yes or no: There is at least one x for which x will make tea.",no
+"Consider the following premises: Not for all y, y is a musician. Can we infer the following from them? Answer yes or no: There is no y for which y is not a musician.",no
+"Consider the following premises: There is at least one x for which x will not drive a car. Can we infer the following from them? Answer yes or no: For all x, x will drive a car.",no
+"Consider the following premises: There is no v for which v will work. Can we infer the following from them? Answer yes or no: Not for all v, v will not work.",no
+"Consider the following premises: There is no u for which u will work. Can we infer the following from them? Answer yes or no: For all u, u will not work.",yes
+"Consider the following premises: There is at least one x for which x will not take a plane. Can we infer the following from them? Answer yes or no: Not for all x, x will take a plane.",yes
+"Consider the following premises: For all x, x will not go running. Can we infer the following from them? Answer yes or no: There is no x for which x will go running.",yes
+"Consider the following premises: For all x, x will not go running. Can we infer the following from them? Answer yes or no: There is no x for which x will go running.",yes
+"Consider the following premises: There is no u for which u is a carpenter. Can we infer the following from them? Answer yes or no: For all u, u is not a carpenter.",yes
+"Consider the following premises: There is at least one x for which x is not a musician. Can we infer the following from them? Answer yes or no: Not for all x, x is a musician.",yes
+"Consider the following premises: For all x, x is not a poet. Can we infer the following from them? Answer yes or no: There is no x for which x is a poet.",yes
+"Consider the following premises: There is no u for which u will play tennis. Can we infer the following from them? Answer yes or no: For all u, u will not play tennis.",yes
+"Consider the following premises: Not for all y, y is rich. Can we infer the following from them? Answer yes or no: There is at least one y for which y is not rich.",yes
+"Consider the following premises: Not for all z_4, z_4 will drink water. Can we infer the following from them? Answer yes or no: There is at least one z_4 for which z_4 will not drink water.",yes
+"Consider the following premises: Not for all v, v is a bartender. Can we infer the following from them? Answer yes or no: There is at least one v for which v is not a bartender.",yes
+"Consider the following premises: There is no v for which v is a police officer. Can we infer the following from them? Answer yes or no: For all v, v is not a police officer.",yes
+"Consider the following premises: There is no x_2 for which x_2 will drive a car. Can we infer the following from them? Answer yes or no: For all x_2, x_2 will not drive a car.",yes
+"Consider the following premises: Not for all v, v is a musician. Can we infer the following from them? Answer yes or no: There is at least one v for which v is not a musician.",yes
+"Consider the following premises: There is no u for which u will listen to a song. Can we infer the following from them? Answer yes or no: For all u, u will not listen to a song.",yes
+"Consider the following premises: For all x, x will not play tennis. Can we infer the following from them? Answer yes or no: There is no x for which x will play tennis.",yes
+"Consider the following premises: Not for all x, x will sleep. Can we infer the following from them? Answer yes or no: There is at least one x for which x will not sleep.",yes
+"Consider the following premises: There is no u for which u is a taxi driver. Can we infer the following from them? Answer yes or no: For all u, u is not a taxi driver.",yes
+"Consider the following premises: There is no x for which x will play a game. Can we infer the following from them? Answer yes or no: For all x, x will not play a game.",yes
+"Consider the following premises: There is no y for which y will cook. Can we infer the following from them? Answer yes or no: For all y, y will not cook.",yes
+"Consider the following premises: There is no x for which x will drink water. Can we infer the following from them? Answer yes or no: For all x, x will not drink water.",yes
+"Consider the following premises: Not for all x, x will climb a mountain. Can we infer the following from them? Answer yes or no: There is at least one x for which x will not climb a mountain.",yes
+"Consider the following premises: There is at least one x for which x is not a writer. Can we infer the following from them? Answer yes or no: Not for all x, x is a writer.",yes
+"Consider the following premises: Not for all z_4, z_4 is a politician. Can we infer the following from them? Answer yes or no: There is at least one z_4 for which z_4 is not a politician.",yes
+"Consider the following premises: There is at least one x for which x will not make tea. Can we infer the following from them? Answer yes or no: Not for all x, x will make tea.",yes
+"Consider the following premises: There is at least one x for which x is not an office clerk. Can we infer the following from them? Answer yes or no: For all x, x is a scientist.",no
+"Consider the following premises: For all x, x will not cook. Can we infer the following from them? Answer yes or no: For all x, x is a server.",no
+"Consider the following premises: Not for all w_3, w_3 is a writer. Can we infer the following from them? Answer yes or no: For all w_3, w_3 will go running.",no
+Consider the following premises: There is no x for which x is poor. Can we infer the following from them? Answer yes or no: Barbara is not listening to a song.,no
+Consider the following premises: There is no y for which y will listen to a song. Can we infer the following from them? Answer yes or no: Robert is not playing tennis.,no
+Consider the following premises: There is at least one x for which x will not work. Can we infer the following from them? Answer yes or no: Jessica is not sad.,no
+"Consider the following premises: There is at least one x for which x will not go running. Can we infer the following from them? Answer yes or no: For all x, x will make tea.",no
+"Consider the following premises: There is no x for which x will go running. Can we infer the following from them? Answer yes or no: For all x, x will make tea.",no
+"Consider the following premises: Not for all y, y will listen to a song. Can we infer the following from them? Answer yes or no: For all y, y will cook.",no
+"Consider the following premises: For all x, x will not sleep. Can we infer the following from them? Answer yes or no: Richard is a writer.",no
+"Consider the following premises: For all x, x will not take a plane. Can we infer the following from them? Answer yes or no: For all x, x is an artist.",no
+Consider the following premises: There is at least one x for which x will not play a game. Can we infer the following from them? Answer yes or no: William is taking a plane.,no
+Consider the following premises: There is no x for which x will play tennis. Can we infer the following from them? Answer yes or no: David is not playing a game.,no
+"Consider the following premises: Not for all x, x is an artist. Can we infer the following from them? Answer yes or no: Linda is working.",no
+Consider the following premises: There is at least one x for which x will not make tea. Can we infer the following from them? Answer yes or no: Michael is driving a car.,no
+"Consider the following premises: There is no x for which x is an artist. Can we infer the following from them? Answer yes or no: For all x, x is a doctor.",no
+Consider the following premises: There is no x for which x is sad. Can we infer the following from them? Answer yes or no: Patricia is not drinking water.,no
+"Consider the following premises: Not for all u, u will go running. Can we infer the following from them? Answer yes or no: Sarah is a doctor.",no
+Consider the following premises: There is no x for which x will drive a car. Can we infer the following from them? Answer yes or no: Patricia is not a mechanic.,no
+Consider the following premises: There is no v_4 for which v_4 is a politician. Can we infer the following from them? Answer yes or no: Karen is not working.,no
+"Consider the following premises: There is no x for which x is a sailor. Can we infer the following from them? Answer yes or no: For all x, x is rich.",no
+"Consider the following premises: For all x, x is not an astronaut. Can we infer the following from them? Answer yes or no: For all x, x is a carpenter.",no
+"Consider the following premises: There is at least one x for which x will not sleep. Can we infer the following from them? Answer yes or no: For all x, x will play a game.",no
+Consider the following premises: There is no z for which z will write a letter. Can we infer the following from them? Answer yes or no: Linda is not a doctor.,no
+Consider the following premises: There is no x for which x will work. Can we infer the following from them? Answer yes or no: Elisabeth is not a nurse.,no
+Consider the following premises: It is cloudy. Can we infer the following from them? Answer yes or no: It is not cloudy.,no
+Consider the following premises: Sarah is sad. Can we infer the following from them? Answer yes or no: Sarah is not sad.,no
+Consider the following premises: Sarah is a doctor. Can we infer the following from them? Answer yes or no: Sarah is not a doctor.,no
+Consider the following premises: Barbara is rich. Can we infer the following from them? Answer yes or no: Barbara is not rich.,no
+Consider the following premises: Jessica is a nurse. Can we infer the following from them? Answer yes or no: Jessica is not a nurse.,no
+Consider the following premises: Elisabeth is running. Can we infer the following from them? Answer yes or no: Elisabeth is not running.,no
+Consider the following premises: It is cold. Can we infer the following from them? Answer yes or no: It is not cold.,no
+Consider the following premises: Barbara is climbing a mountain. Can we infer the following from them? Answer yes or no: Barbara is not climbing a mountain.,no
+Consider the following premises: Thomas is a doctor. Can we infer the following from them? Answer yes or no: Thomas is not a doctor.,no
+Consider the following premises: James is playing tennis. Can we infer the following from them? Answer yes or no: James is not playing tennis.,no
+Consider the following premises: It is late. Can we infer the following from them? Answer yes or no: It is not late.,no
+Consider the following premises: It is windy. Can we infer the following from them? Answer yes or no: It is not windy.,no
+Consider the following premises: Joseph is a soldier. Can we infer the following from them? Answer yes or no: Joseph is not a soldier.,no
+Consider the following premises: Barbara is reading a book. Can we infer the following from them? Answer yes or no: Barbara is not reading a book.,no
+Consider the following premises: It is raining. Can we infer the following from them? Answer yes or no: It is not raining.,no
+Consider the following premises: Charles is an electrician. Can we infer the following from them? Answer yes or no: Charles is not an electrician.,no
+Consider the following premises: Sarah is writing a letter. Can we infer the following from them? Answer yes or no: Sarah is not writing a letter.,no
+Consider the following premises: It is cloudy. Can we infer the following from them? Answer yes or no: It is not cloudy.,no
+Consider the following premises: David is excited. Can we infer the following from them? Answer yes or no: David is not excited.,no
+Consider the following premises: It is snowing. Can we infer the following from them? Answer yes or no: It is not snowing.,no
+Consider the following premises: It is sunny. Can we infer the following from them? Answer yes or no: It is not sunny.,no
+Consider the following premises: It is cold. Can we infer the following from them? Answer yes or no: It is not cold.,no
+Consider the following premises: Barbara is climbing a mountain. Can we infer the following from them? Answer yes or no: Barbara is not climbing a mountain.,no
+Consider the following premises: It is late. Can we infer the following from them? Answer yes or no: It is not late.,no
+Consider the following premises: It is cloudy. Can we infer the following from them? Answer yes or no: It is not cloudy.,no
+Consider the following premises: It is cold. Can we infer the following from them? Answer yes or no: It is cold or Sarah is poor.,yes
+Consider the following premises: It is sunny. Can we infer the following from them? Answer yes or no: It is sunny or John is a scientist.,yes
+Consider the following premises: William is playing tennis. Can we infer the following from them? Answer yes or no: William is playing tennis or it is cloudy.,yes
+Consider the following premises: David is playing a game. Can we infer the following from them? Answer yes or no: David is playing a game or it is raining.,yes
+Consider the following premises: Robert is driving a car. Can we infer the following from them? Answer yes or no: Robert is driving a car or Michael is a carpenter.,yes
+Consider the following premises: It is cloudy. Can we infer the following from them? Answer yes or no: It is cloudy or it is cold.,yes
+Consider the following premises: Elisabeth is playing squash. Can we infer the following from them? Answer yes or no: Elisabeth is playing squash or Elisabeth is running.,yes
+Consider the following premises: It is late. Can we infer the following from them? Answer yes or no: It is late or David is a writer.,yes
+Consider the following premises: Robert is a janitor. Can we infer the following from them? Answer yes or no: Robert is a janitor or Robert is a writer.,yes
+Consider the following premises: It is raining. Can we infer the following from them? Answer yes or no: It is raining or Richard is driving a car.,yes
+Consider the following premises: John is reading a book. Can we infer the following from them? Answer yes or no: John is reading a book or it is raining.,yes
+Consider the following premises: It is snowing. Can we infer the following from them? Answer yes or no: It is snowing or Charles is a poet.,yes
+Consider the following premises: It is snowing. Can we infer the following from them? Answer yes or no: It is snowing or it is cloudy.,yes
+Consider the following premises: Sarah is an artist. Can we infer the following from them? Answer yes or no: Sarah is an artist or Linda is reading a book.,yes
+Consider the following premises: Susan is a bartender. Can we infer the following from them? Answer yes or no: Susan is a bartender or Joseph is a soldier.,yes
+Consider the following premises: James is an artist. Can we infer the following from them? Answer yes or no: James is an artist or Karen is a soldier.,yes
+Consider the following premises: Jessica is sleeping. Can we infer the following from them? Answer yes or no: Jessica is sleeping or Patricia is bored.,yes
+Consider the following premises: Patricia is drinking water. Can we infer the following from them? Answer yes or no: Patricia is drinking water or it is sunny.,yes
+Consider the following premises: Linda is a carpenter. Can we infer the following from them? Answer yes or no: Linda is a carpenter or it is cloudy.,yes
+Consider the following premises: It is windy. Can we infer the following from them? Answer yes or no: It is windy or it is overcast.,yes
+Consider the following premises: It is raining. Can we infer the following from them? Answer yes or no: It is raining or Linda is a writer.,yes
+Consider the following premises: It is windy. Can we infer the following from them? Answer yes or no: It is windy or Jessica is working.,yes
+Consider the following premises: Karen is running. Can we infer the following from them? Answer yes or no: Karen is running or Karen is taking a plane.,yes
+Consider the following premises: Jessica is a soldier. Can we infer the following from them? Answer yes or no: Jessica is a soldier or James is cooking.,yes
+Consider the following premises: Robert is writing a letter. Can we infer the following from them? Answer yes or no: Robert is writing a letter or Susan is taking a plane.,yes
+Consider the following premises: It is cold. Can we infer the following from them? Answer yes or no: David is not a bartender.,no
+Consider the following premises: Thomas is writing a letter. Can we infer the following from them? Answer yes or no: Sarah is not working.,no
+Consider the following premises: Elisabeth is running. Can we infer the following from them? Answer yes or no: Patricia is drinking water.,no
+Consider the following premises: It is snowing. Can we infer the following from them? Answer yes or no: William is a poet.,no
+Consider the following premises: Mary is an astronaut. Can we infer the following from them? Answer yes or no: It is not cloudy.,no
+Consider the following premises: Sarah is listening to a song. Can we infer the following from them? Answer yes or no: Joseph is drinking water.,no
+Consider the following premises: James is a writer. Can we infer the following from them? Answer yes or no: It is sunny.,no
+Consider the following premises: Susan is reading a book. Can we infer the following from them? Answer yes or no: Michael is poor.,no
+Consider the following premises: It is sunny. Can we infer the following from them? Answer yes or no: David is not drinking water.,no
+Consider the following premises: Linda is a scientist. Can we infer the following from them? Answer yes or no: It is not raining.,no
+Consider the following premises: Robert is a writer. Can we infer the following from them? Answer yes or no: John is not fast.,no
+Consider the following premises: David is rich. Can we infer the following from them? Answer yes or no: Patricia is working.,no
+Consider the following premises: William is reading a book. Can we infer the following from them? Answer yes or no: James is playing a game.,no
+Consider the following premises: Linda is bored. Can we infer the following from them? Answer yes or no: It is not late.,no
+Consider the following premises: Elisabeth is a musician. Can we infer the following from them? Answer yes or no: It is cloudy.,no
+Consider the following premises: Joseph is sleeping. Can we infer the following from them? Answer yes or no: It is not overcast.,no
+Consider the following premises: Michael is a carpenter. Can we infer the following from them? Answer yes or no: Mary is climbing a mountain.,no
+Consider the following premises: Karen is playing tennis. Can we infer the following from them? Answer yes or no: It is not windy.,no
+Consider the following premises: James is a bartender. Can we infer the following from them? Answer yes or no: Sarah is a server.,no
+Consider the following premises: Richard is drinking water. Can we infer the following from them? Answer yes or no: Michael is not curious.,no
+Consider the following premises: Patricia is a police officer. Can we infer the following from them? Answer yes or no: Thomas is not fast.,no
+Consider the following premises: Jessica is a sailor. Can we infer the following from them? Answer yes or no: Thomas is not a nurse.,no
+Consider the following premises: It is snowing. Can we infer the following from them? Answer yes or no: Karen is rich.,no
+Consider the following premises: Sarah is climbing a mountain. Can we infer the following from them? Answer yes or no: Patricia is not taking a plane.,no
+Consider the following premises: It is late. Can we infer the following from them? Answer yes or no: It is not overcast.,no
+Consider the following premises: William is a janitor. William is a janitor or Charles is a soldier. Can we infer the following from them? Answer yes or no: Charles is a soldier.,no
+Consider the following premises: Karen is climbing a mountain or Joseph is sleeping. Karen is climbing a mountain. Can we infer the following from them? Answer yes or no: Joseph is sleeping.,no
+Consider the following premises: It is sunny or Susan is listening to a song. It is sunny. Can we infer the following from them? Answer yes or no: Susan is listening to a song.,no
+Consider the following premises: David is making tea or it is sunny. David is making tea. Can we infer the following from them? Answer yes or no: It is sunny.,no
+Consider the following premises: Susan is a nurse or it is cloudy. Susan is a nurse. Can we infer the following from them? Answer yes or no: It is cloudy.,no
+Consider the following premises: It is raining or it is windy. It is raining. Can we infer the following from them? Answer yes or no: It is windy.,no
+Consider the following premises: Linda is reading a book. Linda is reading a book or William is running. Can we infer the following from them? Answer yes or no: William is running.,no
+Consider the following premises: Susan is a cashier. Susan is a cashier or it is windy. Can we infer the following from them? Answer yes or no: It is windy.,no
+Consider the following premises: Susan is drinking water or Mary is making tea. Susan is drinking water. Can we infer the following from them? Answer yes or no: Mary is making tea.,no
+Consider the following premises: Elisabeth is playing squash or Susan is reading a book. Elisabeth is playing squash. Can we infer the following from them? Answer yes or no: Susan is reading a book.,no
+Consider the following premises: James is writing a letter. James is writing a letter or Charles is a writer. Can we infer the following from them? Answer yes or no: Charles is a writer.,no
+Consider the following premises: Barbara is a police officer or Richard is playing tennis. Barbara is a police officer. Can we infer the following from them? Answer yes or no: Richard is playing tennis.,no
+Consider the following premises: Patricia is a police officer. Patricia is a police officer or James is a lawyer. Can we infer the following from them? Answer yes or no: James is a lawyer.,no
+Consider the following premises: It is late. It is late or Robert is a police officer. Can we infer the following from them? Answer yes or no: Robert is a police officer.,no
+Consider the following premises: Jennifer is a server. Jennifer is a server or John is a janitor. Can we infer the following from them? Answer yes or no: John is a janitor.,no
+Consider the following premises: Mary is an office clerk. Mary is an office clerk or it is cold. Can we infer the following from them? Answer yes or no: It is cold.,no
+Consider the following premises: David is a scientist. David is a scientist or Robert is an office clerk. Can we infer the following from them? Answer yes or no: Robert is an office clerk.,no
+Consider the following premises: It is raining. It is raining or Patricia is a mechanic. Can we infer the following from them? Answer yes or no: Patricia is a mechanic.,no
+Consider the following premises: It is late. It is late or Joseph is driving a car. Can we infer the following from them? Answer yes or no: Joseph is driving a car.,no
+Consider the following premises: It is sunny. It is sunny or Elisabeth is a writer. Can we infer the following from them? Answer yes or no: Elisabeth is a writer.,no
+Consider the following premises: David is an artist. David is an artist or it is cloudy. Can we infer the following from them? Answer yes or no: It is cloudy.,no
+Consider the following premises: It is windy or John is an artist. It is windy. Can we infer the following from them? Answer yes or no: John is an artist.,no
+Consider the following premises: It is snowing or it is overcast. It is snowing. Can we infer the following from them? Answer yes or no: It is overcast.,no
+Consider the following premises: Susan is sleeping or Patricia is curious. Susan is sleeping. Can we infer the following from them? Answer yes or no: Patricia is curious.,no
+Consider the following premises: It is raining or Robert is writing a letter. It is raining. Can we infer the following from them? Answer yes or no: Robert is writing a letter.,no
+"Consider the following premises: David is an electrician. If it is cold, then David is an electrician. Can we infer the following from them? Answer yes or no: It is cold.",no
+"Consider the following premises: If it is sunny, then Richard is poor. Richard is poor. Can we infer the following from them? Answer yes or no: It is sunny.",no
+"Consider the following premises: Patricia is an office clerk. If John were a bartender, then Patricia is an office clerk. Can we infer the following from them? Answer yes or no: John is a bartender.",no
+"Consider the following premises: Linda is curious. If Richard plays squash, then Linda is curious. Can we infer the following from them? Answer yes or no: Richard is playing squash.",no
+"Consider the following premises: If Sarah were excited, then it is late. It is late. Can we infer the following from them? Answer yes or no: Sarah is excited.",no
+"Consider the following premises: If Elisabeth were a sailor, then Linda is a bartender. Linda is a bartender. Can we infer the following from them? Answer yes or no: Elisabeth is a sailor.",no
+"Consider the following premises: If Susan were a sailor, then Joseph is an office clerk. Joseph is an office clerk. Can we infer the following from them? Answer yes or no: Susan is a sailor.",no
+"Consider the following premises: Patricia is driving a car. If Joseph were a politician, then Patricia is driving a car. Can we infer the following from them? Answer yes or no: Joseph is a politician.",no
+"Consider the following premises: It is raining. If Mary reads a book, then it is raining. Can we infer the following from them? Answer yes or no: Mary is reading a book.",no
+"Consider the following premises: If Robert were fast, then Susan is curious. Susan is curious. Can we infer the following from them? Answer yes or no: Robert is fast.",no
+"Consider the following premises: William is rich. If Patricia were bored, then William is rich. Can we infer the following from them? Answer yes or no: Patricia is bored.",no
+"Consider the following premises: If it is cold, then Richard is climbing a mountain. Richard is climbing a mountain. Can we infer the following from them? Answer yes or no: It is cold.",no
+"Consider the following premises: It is late. If Patricia climbs a mountain, then it is late. Can we infer the following from them? Answer yes or no: Patricia is climbing a mountain.",no
+"Consider the following premises: If it is cloudy, then Linda is cooking. Linda is cooking. Can we infer the following from them? Answer yes or no: It is cloudy.",no
+"Consider the following premises: It is windy. If Sarah cooks, then it is windy. Can we infer the following from them? Answer yes or no: Sarah is cooking.",no
+"Consider the following premises: Charles is making tea. If Susan cooks, then Charles is making tea. Can we infer the following from them? Answer yes or no: Susan is cooking.",no
+"Consider the following premises: If it is cloudy, then Sarah is excited. Sarah is excited. Can we infer the following from them? Answer yes or no: It is cloudy.",no
+"Consider the following premises: It is late. If it snows, then it is late. Can we infer the following from them? Answer yes or no: It is snowing.",no
+"Consider the following premises: Jennifer is a lawyer. If Charles drinks water, then Jennifer is a lawyer. Can we infer the following from them? Answer yes or no: Charles is drinking water.",no
+"Consider the following premises: If William were sad, then Thomas is listening to a song. Thomas is listening to a song. Can we infer the following from them? Answer yes or no: William is sad.",no
+"Consider the following premises: It is raining. If Karen were a taxi driver, then it is raining. Can we infer the following from them? Answer yes or no: Karen is a taxi driver.",no
+"Consider the following premises: It is late. If it is cold, then it is late. Can we infer the following from them? Answer yes or no: It is cold.",no
+"Consider the following premises: If Robert writes a letter, then Jessica is a musician. Jessica is a musician. Can we infer the following from them? Answer yes or no: Robert is writing a letter.",no
+"Consider the following premises: If Barbara were bored, then Karen is playing a game. Karen is playing a game. Can we infer the following from them? Answer yes or no: Barbara is bored.",no
+"Consider the following premises: If it rains, then it is cloudy. It is cloudy. Can we infer the following from them? Answer yes or no: It is raining.",no
+Consider the following premises: Richard is a lawyer or it is raining or it is late. Can we infer the following from them? Answer yes or no: Neither Richard is a lawyer or it is raining nor it is late.,no
+"Consider the following premises: Thomas is curious, and Barbara is a mechanic and Richard is a politician. Can we infer the following from them? Answer yes or no: The claim that Thomas is curious and Barbara is a mechanic, and the claim that Richard is a politician cannot both be true.",no
+"Consider the following premises: It is sunny, and Linda is sad and it is windy. Can we infer the following from them? Answer yes or no: The claim that it is sunny and Linda is sad, and the claim that it is windy cannot both be true.",no
+"Consider the following premises: It is snowing, and Elisabeth is a taxi driver and Mary is playing squash. Can we infer the following from them? Answer yes or no: The claim that it is snowing and Elisabeth is a taxi driver, and the claim that Mary is playing squash cannot both be true.",no
+"Consider the following premises: Robert is playing tennis, and Jennifer is a lawyer and it is raining. Can we infer the following from them? Answer yes or no: The claim that Robert is playing tennis and Jennifer is a lawyer, and the claim that it is raining cannot both be true.",no
+Consider the following premises: William is a bartender or Patricia is a poet or Elisabeth is a server. Can we infer the following from them? Answer yes or no: Neither William is a bartender or Patricia is a poet nor Elisabeth is a server.,no
+"Consider the following premises: Mary is fast, and Richard is working and Thomas is playing a game. Can we infer the following from them? Answer yes or no: The claim that Mary is fast and Richard is working, and the claim that Thomas is playing a game cannot both be true.",no
+"Consider the following premises: William is an electrician, and Susan is a scientist and Elisabeth is a taxi driver. Can we infer the following from them? Answer yes or no: The claim that William is an electrician and Susan is a scientist, and the claim that Elisabeth is a taxi driver cannot both be true.",no
+"Consider the following premises: Robert is a janitor, and William is cooking and Susan is a poet. Can we infer the following from them? Answer yes or no: The claim that Robert is a janitor and William is cooking, and the claim that Susan is a poet cannot both be true.",no
+Consider the following premises: Elisabeth is a politician or William is climbing a mountain or Joseph is a mechanic. Can we infer the following from them? Answer yes or no: Neither Elisabeth is a politician or William is climbing a mountain nor Joseph is a mechanic.,no
+"Consider the following premises: Richard is a soldier, and it is raining and Karen is fast. Can we infer the following from them? Answer yes or no: The claim that Richard is a soldier and it is raining, and the claim that Karen is fast cannot both be true.",no
+Consider the following premises: It is snowing or Patricia is a carpenter or Linda is listening to a song. Can we infer the following from them? Answer yes or no: Neither it is snowing or Patricia is a carpenter nor Linda is listening to a song.,no
+Consider the following premises: William is writing a letter or Susan is climbing a mountain or Sarah is reading a book. Can we infer the following from them? Answer yes or no: Neither William is writing a letter or Susan is climbing a mountain nor Sarah is reading a book.,no
+"Consider the following premises: It is raining, and Barbara is driving a car and it is sunny. Can we infer the following from them? Answer yes or no: The claim that it is raining and Barbara is driving a car, and the claim that it is sunny cannot both be true.",no
+"Consider the following premises: Karen is listening to a song, and it is overcast and it is raining. Can we infer the following from them? Answer yes or no: The claim that Karen is listening to a song and it is overcast, and the claim that it is raining cannot both be true.",no
+"Consider the following premises: Richard is writing a letter, and it is raining and Thomas is drinking water. Can we infer the following from them? Answer yes or no: The claim that Richard is writing a letter and it is raining, and the claim that Thomas is drinking water cannot both be true.",no
+"Consider the following premises: Jennifer is running, and Karen is climbing a mountain and Michael is fast. Can we infer the following from them? Answer yes or no: The claim that Jennifer is running and Karen is climbing a mountain, and the claim that Michael is fast cannot both be true.",no
+"Consider the following premises: Karen is a bartender, and Jennifer is writing a letter and it is snowing. Can we infer the following from them? Answer yes or no: The claim that Karen is a bartender and Jennifer is writing a letter, and the claim that it is snowing cannot both be true.",no
+"Consider the following premises: Joseph is a doctor, and Jessica is a writer and William is a lawyer. Can we infer the following from them? Answer yes or no: The claim that Joseph is a doctor and Jessica is a writer, and the claim that William is a lawyer cannot both be true.",no
+"Consider the following premises: Karen is drinking water, and Barbara is sleeping and it is sunny. Can we infer the following from them? Answer yes or no: The claim that Karen is drinking water and Barbara is sleeping, and the claim that it is sunny cannot both be true.",no
+"Consider the following premises: Jessica is a nurse, and Richard is a sailor and Mary is a poet. Can we infer the following from them? Answer yes or no: The claim that Jessica is a nurse and Richard is a sailor, and the claim that Mary is a poet cannot both be true.",no
+Consider the following premises: Patricia is making tea or David is playing squash or Robert is a carpenter. Can we infer the following from them? Answer yes or no: Neither Patricia is making tea or David is playing squash nor Robert is a carpenter.,no
+"Consider the following premises: It is windy, and James is reading a book and Charles is a writer. Can we infer the following from them? Answer yes or no: The claim that it is windy and James is reading a book, and the claim that Charles is a writer cannot both be true.",no
+"Consider the following premises: James is cooking, and Susan is sleeping and Mary is reading a book. Can we infer the following from them? Answer yes or no: The claim that James is cooking and Susan is sleeping, and the claim that Mary is reading a book cannot both be true.",no
+"Consider the following premises: It is sunny, and it is overcast and William is poor. Can we infer the following from them? Answer yes or no: The claim that it is sunny and it is overcast, and the claim that William is poor cannot both be true.",no
+"Consider the following premises: William is writing a letter, and John is reading a book and Karen is a sailor. Can we infer the following from them? Answer yes or no: William is writing a letter and John is reading a book, and Karen is a sailor.",yes
+"Consider the following premises: Joseph is a bartender, or it is late or it is snowing. Can we infer the following from them? Answer yes or no: Joseph is a bartender or it is late, or it is snowing.",yes
+"Consider the following premises: Barbara is drinking water, or Linda is a server or Linda is reading a book. Can we infer the following from them? Answer yes or no: Barbara is drinking water or Linda is a server, or Linda is reading a book.",yes
+"Consider the following premises: It is windy, and Patricia is fast and it is cloudy. Can we infer the following from them? Answer yes or no: It is windy and Patricia is fast, and it is cloudy.",yes
+"Consider the following premises: John is poor, or Richard is making tea or John is a police officer. Can we infer the following from them? Answer yes or no: John is poor or Richard is making tea, or John is a police officer.",yes
+"Consider the following premises: Richard is a taxi driver, or Mary is driving a car or Patricia is playing squash. Can we infer the following from them? Answer yes or no: Richard is a taxi driver or Mary is driving a car, or Patricia is playing squash.",yes
+"Consider the following premises: Richard is driving a car, or it is overcast or it is sunny. Can we infer the following from them? Answer yes or no: Richard is driving a car or it is overcast, or it is sunny.",yes
+"Consider the following premises: Mary is driving a car, and Elisabeth is drinking water and Michael is climbing a mountain. Can we infer the following from them? Answer yes or no: Mary is driving a car and Elisabeth is drinking water, and Michael is climbing a mountain.",yes
+"Consider the following premises: It is sunny, or Michael is listening to a song or Thomas is an office clerk. Can we infer the following from them? Answer yes or no: It is sunny or Michael is listening to a song, or Thomas is an office clerk.",yes
+"Consider the following premises: Robert is a scientist, and Barbara is a janitor and James is playing squash. Can we infer the following from them? Answer yes or no: Robert is a scientist and Barbara is a janitor, and James is playing squash.",yes
+"Consider the following premises: Sarah is a cashier, and it is late and it is raining. Can we infer the following from them? Answer yes or no: Sarah is a cashier and it is late, and it is raining.",yes
+"Consider the following premises: It is snowing, or Mary is taking a plane or it is cold. Can we infer the following from them? Answer yes or no: It is snowing or Mary is taking a plane, or it is cold.",yes
+"Consider the following premises: Michael is a carpenter, or Charles is listening to a song or Thomas is a poet. Can we infer the following from them? Answer yes or no: Michael is a carpenter or Charles is listening to a song, or Thomas is a poet.",yes
+"Consider the following premises: Jennifer is a poet, and it is snowing and Richard is working. Can we infer the following from them? Answer yes or no: Jennifer is a poet and it is snowing, and Richard is working.",yes
+"Consider the following premises: Patricia is playing tennis, or Elisabeth is a nurse or Linda is a doctor. Can we infer the following from them? Answer yes or no: Patricia is playing tennis or Elisabeth is a nurse, or Linda is a doctor.",yes
+"Consider the following premises: Sarah is excited, and it is raining and Patricia is an artist. Can we infer the following from them? Answer yes or no: Sarah is excited and it is raining, and Patricia is an artist.",yes
+"Consider the following premises: Jennifer is writing a letter, or John is happy or Karen is climbing a mountain. Can we infer the following from them? Answer yes or no: Jennifer is writing a letter or John is happy, or Karen is climbing a mountain.",yes
+"Consider the following premises: Charles is taking a plane, or David is writing a letter or Elisabeth is a poet. Can we infer the following from them? Answer yes or no: Charles is taking a plane or David is writing a letter, or Elisabeth is a poet.",yes
+"Consider the following premises: Michael is making tea, or Thomas is happy or it is cold. Can we infer the following from them? Answer yes or no: Michael is making tea or Thomas is happy, or it is cold.",yes
+"Consider the following premises: Sarah is sleeping, or Patricia is a mechanic or Thomas is a sailor. Can we infer the following from them? Answer yes or no: Sarah is sleeping or Patricia is a mechanic, or Thomas is a sailor.",yes
+"Consider the following premises: William is excited, or it is sunny or Susan is taking a plane. Can we infer the following from them? Answer yes or no: William is excited or it is sunny, or Susan is taking a plane.",yes
+"Consider the following premises: Patricia is reading a book, and it is windy and it is snowing. Can we infer the following from them? Answer yes or no: Patricia is reading a book and it is windy, and it is snowing.",yes
+"Consider the following premises: It is cold, and it is cloudy and Jennifer is taking a plane. Can we infer the following from them? Answer yes or no: It is cold and it is cloudy, and Jennifer is taking a plane.",yes
+"Consider the following premises: James is climbing a mountain, or Joseph is happy or William is bored. Can we infer the following from them? Answer yes or no: James is climbing a mountain or Joseph is happy, or William is bored.",yes
+"Consider the following premises: It is windy, or Mary is a bartender or Sarah is an office clerk. Can we infer the following from them? Answer yes or no: It is windy or Mary is a bartender, or Sarah is an office clerk.",yes
+Consider the following premises: John is drinking water or Joseph is happy or Michael is climbing a mountain. Can we infer the following from them? Answer yes or no: John is a writer.,no
+Consider the following premises: It is late or Charles is fast or Barbara is playing tennis. Can we infer the following from them? Answer yes or no: Linda is taking a plane.,no
+Consider the following premises: William is writing a letter and it is cold and it is sunny. Can we infer the following from them? Answer yes or no: It is snowing.,no
+Consider the following premises: It is sunny and Elisabeth is writing a letter and Charles is a scientist. Can we infer the following from them? Answer yes or no: Charles is not a doctor.,no
+Consider the following premises: It is windy or Joseph is fast or it is sunny. Can we infer the following from them? Answer yes or no: It is raining.,no
+Consider the following premises: Elisabeth is playing squash and it is snowing and Michael is climbing a mountain. Can we infer the following from them? Answer yes or no: Karen is sad.,no
+Consider the following premises: Michael is working and Robert is making tea and it is cold. Can we infer the following from them? Answer yes or no: Jennifer is playing tennis.,no
+Consider the following premises: David is a lawyer or it is cloudy or Mary is a poet. Can we infer the following from them? Answer yes or no: It is late.,no
+Consider the following premises: Linda is a sailor and it is snowing and Linda is climbing a mountain. Can we infer the following from them? Answer yes or no: Karen is not reading a book.,no
+Consider the following premises: Karen is happy and it is windy and Sarah is reading a book. Can we infer the following from them? Answer yes or no: It is not raining.,no
+Consider the following premises: It is late or it is cloudy or it is overcast. Can we infer the following from them? Answer yes or no: Michael is not playing a game.,no
+Consider the following premises: Linda is listening to a song and Robert is working and it is overcast. Can we infer the following from them? Answer yes or no: Robert is not playing squash.,no
+Consider the following premises: Michael is cooking and Susan is a doctor and Michael is a police officer. Can we infer the following from them? Answer yes or no: Sarah is a server.,no
+Consider the following premises: Susan is curious and Joseph is sad and Sarah is reading a book. Can we infer the following from them? Answer yes or no: It is not late.,no
+Consider the following premises: William is driving a car and Robert is a cashier and Susan is climbing a mountain. Can we infer the following from them? Answer yes or no: James is not an astronaut.,no
+Consider the following premises: Susan is cooking and Sarah is a politician and it is overcast. Can we infer the following from them? Answer yes or no: Barbara is not climbing a mountain.,no
+Consider the following premises: David is a bartender or Karen is climbing a mountain or it is overcast. Can we infer the following from them? Answer yes or no: It is not cloudy.,no
+Consider the following premises: Elisabeth is running or Elisabeth is sad or Elisabeth is reading a book. Can we infer the following from them? Answer yes or no: Susan is not writing a letter.,no
+Consider the following premises: It is windy and it is snowing and it is late. Can we infer the following from them? Answer yes or no: Robert is not sleeping.,no
+Consider the following premises: It is snowing and Michael is driving a car and John is sleeping. Can we infer the following from them? Answer yes or no: It is windy.,no
+Consider the following premises: Susan is working and Richard is sleeping and Barbara is a cashier. Can we infer the following from them? Answer yes or no: Mary is not an electrician.,no
+Consider the following premises: Jennifer is excited and William is running and it is windy. Can we infer the following from them? Answer yes or no: Michael is fast.,no
+Consider the following premises: Joseph is writing a letter or Linda is fast or John is a police officer. Can we infer the following from them? Answer yes or no: James is not reading a book.,no
+Consider the following premises: Barbara is an electrician or John is sad or Robert is happy. Can we infer the following from them? Answer yes or no: Jennifer is not a writer.,no
+Consider the following premises: William is climbing a mountain and it is late and Karen is working. Can we infer the following from them? Answer yes or no: Mary is an artist.,no

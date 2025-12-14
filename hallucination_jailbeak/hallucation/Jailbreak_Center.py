@@ -17,11 +17,12 @@ from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_excep
 def get_response_with_judge_gpt(question):
     url = "https://api.kksj.org/v1/chat/completions"
     headers = {
-        "Authorization": "Bearer sk-zzBVoJToeoS80WNj0wTgZ5MpkV2EJHLqNAnUvBpiYF5bGem8",
+        "Authorization": "Bearer sk-76dqA5HF2oDe7ReFsuhqB8DAEPQA4Cy8uJTlEzFpCkOueQ7o",
         "Content-Type": "application/json"
     }
     data = {
         "model": "gpt-4o",
+        "temperature": 0,
         "messages": [
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": question}
@@ -66,7 +67,7 @@ def get_response_with_qwen(question: str, api_key: str, model: str,
         "max_tokens": max_tokens,
         "temperature": temperature,
         "enable_thinking": enable_thinking,
-        "thinking_budget": thinking_budget
+        # "thinking_budget": thinking_budget
     }
     
     headers = {
@@ -81,12 +82,115 @@ def get_response_with_qwen(question: str, api_key: str, model: str,
         try:
             response = requests.post(url, json=payload, headers=headers)
             response.raise_for_status()
-            return response.json()
+            response_json =  response.json()
+            content = response_json.get("choices", [{}])[0].get("message", {}).get("content", "")
+            return content
         except Exception as e:
             if attempt == max_retries - 1:
                 raise
             time.sleep(retry_delay * (attempt + 1))
             continue
+        
+def get_response_with_gpt(question: str, temperature: float,max_retries=5, retry_delay=2):
+    """
+    调用 GPT API 并支持自动重试
+    
+    Args:
+        messages: 包含 system 和 user 消息的列表
+        max_retries: 最大重试次数，默认 5 次
+        retry_delay: 每次重试前的等待时间（秒），默认 2 秒
+    """
+    url = "https://api.kksj.org/v1/chat/completions"
+    headers = {
+        "Authorization": f"Bearer sk-zzBVoJToeoS80WNj0wTgZ5MpkV2EJHLqNAnUvBpiYF5bGem8",
+        "Content-Type": "application/json"
+    }
+    data = {
+        "model": "gpt-5",
+        "temperature": temperature,
+        "reasoning_effort": "minimal",
+        "messages": [
+            {"role": "user", "content": question}
+        ]
+    }
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            response = requests.post(url, headers=headers, json=data)
+            response.raise_for_status()
+            response_json = response.json()
+
+            # 安全提取内容
+            choices = response_json.get("choices", [])
+            if not choices:
+                raise ValueError("No choices in response")
+            content = choices[0].get("message", {}).get("content", "")
+            if content == "":
+                raise ValueError("Empty content in response")
+            
+            return response_json  # 成功则直接返回
+
+        except (requests.exceptions.RequestException, KeyError, ValueError) as e:
+            print(f"[Attempt {attempt}/{max_retries}] Request failed: {e}")
+            
+            # 如果是最后一次重试，不再等待，直接抛出异常
+            if attempt == max_retries:
+                print("Max retries reached. Giving up.")
+                raise  # 重新抛出最终异常
+            else:
+                print(f"Retrying in {retry_delay} seconds...")
+                time.sleep(retry_delay)  # 等待后再重试
+
+        
+def get_response_with_gpt_reasoning(question: str, temperature: float,max_retries=5, retry_delay=2):
+    """
+    调用 GPT API 并支持自动重试
+    
+    Args:
+        messages: 包含 system 和 user 消息的列表
+        max_retries: 最大重试次数，默认 5 次
+        retry_delay: 每次重试前的等待时间（秒），默认 2 秒
+    """
+    url = "https://api.kksj.org/v1/chat/completions"
+    headers = {
+        "Authorization": f"Bearer sk-bg7qRHDSvCE30miRNcQtroVCPyUojqivHJufbveTrFKKMSyl",
+        "Content-Type": "application/json"
+    }
+    data = {
+        "model": "gpt-5",
+        "temperature": temperature,
+        "reasoning_effort": "medium",
+        "messages": [
+            {"role": "user", "content": question}
+        ]
+    }
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            response = requests.post(url, headers=headers, json=data)
+            response.raise_for_status()
+            response_json = response.json()
+
+            # 安全提取内容
+            choices = response_json.get("choices", [])
+            if not choices:
+                raise ValueError("No choices in response")
+            content = choices[0].get("message", {}).get("content", "")
+            if content == "":
+                raise ValueError("Empty content in response")
+            
+            return response_json  # 成功则直接返回
+
+        except (requests.exceptions.RequestException, KeyError, ValueError) as e:
+            print(f"[Attempt {attempt}/{max_retries}] Request failed: {e}")
+            
+            # 如果是最后一次重试，不再等待，直接抛出异常
+            if attempt == max_retries:
+                print("Max retries reached. Giving up.")
+                raise  # 重新抛出最终异常
+            else:
+                print(f"Retrying in {retry_delay} seconds...")
+                time.sleep(retry_delay)  # 等待后再重试
 
 
 def get_response_with_judge(question: str, api_key: str, 
