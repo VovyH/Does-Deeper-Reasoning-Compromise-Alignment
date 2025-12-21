@@ -70,37 +70,51 @@ def validate_csv_structure(file_path: Path, required_columns: list = None) -> No
     except Exception as e:
         raise ValueError(f"验证CSV文件失败: {file_path}, 错误: {str(e)}")
 
-def validate_json_structure(file_path: Path) -> list:
+def validate_json_structure(file_path: Path) -> tuple:
     """
-    验证JSON文件结构并加载数据
+    验证JSON文件结构并加载数据（兼容字典/列表两种根结构）
     
     Args:
         file_path: JSON文件路径
     
     Returns:
-        加载的JSON数据（确保是列表）
+        tuple: (数据类型标识, 加载的JSON数据)
+               数据类型标识: 'dict' 或 'list'
     
     Raises:
-        ValueError: JSON格式非法或不是数组结构
+        ValueError: JSON格式非法或数据为空
     """
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
-            # 逐行读取防止内存溢出，同时验证JSON格式
+            # 加载JSON数据
             data = json.load(f)
             
-            # 确保JSON根结构是数组
-            if not isinstance(data, list):
-                raise ValueError(f"JSON文件根结构必须是数组（列表），实际类型: {type(data).__name__}")
+            # 检查数据是否为空
+            if not data:
+                raise ValueError("JSON数据为空")
             
-            # 验证数组元素至少有一个，且是字典类型
-            if len(data) == 0:
-                raise ValueError("JSON数组为空")
+            # 识别根结构类型
+            if isinstance(data, dict):
+                data_type = 'dict'
+                # 如果是字典，检查是否包含malicious_details字段（可选）
+                if 'malicious_details' in data:
+                    malicious_details = data.get('malicious_details', [])
+                    if not isinstance(malicious_details, list):
+                        raise ValueError(f"malicious_details必须是列表，实际类型: {type(malicious_details).__name__}")
+                    if len(malicious_details) == 0:
+                        raise ValueError("malicious_details列表为空")
+                    # 验证列表元素是字典
+                    if malicious_details and not isinstance(malicious_details[0], dict):
+                        raise ValueError(f"malicious_details元素必须是字典，实际类型: {type(malicious_details[0]).__name__}")
+            elif isinstance(data, list):
+                data_type = 'list'
+                # 如果是列表，验证元素是字典
+                if not isinstance(data[0], dict):
+                    raise ValueError(f"JSON列表元素必须是字典，实际类型: {type(data[0]).__name__}")
+            else:
+                raise ValueError(f"JSON文件根结构必须是字典或列表，实际类型: {type(data).__name__}")
             
-            # 检查第一个元素是否为字典（示例验证）
-            if not isinstance(data[0], dict):
-                raise ValueError(f"JSON数组元素必须是对象（字典），实际类型: {type(data[0]).__name__}")
-            
-            return data
+            return (data_type, data)
     except json.JSONDecodeError as e:
         raise ValueError(f"JSON格式非法: {file_path}, 错误位置: {e.pos}, 错误: {e.msg}")
     except Exception as e:
@@ -236,10 +250,10 @@ def column_json_to_csv(input_file: str, output_file: str, column: str):
             output_path.unlink()
         return
 
-# 函数2：处理JSON文件（数组格式），提取字段到CSV
+# 函数2：处理JSON文件（兼容字典/列表根结构），提取字段到CSV
 def json_to_csv(json_file_path: str, csv_file_path: str):
     """
-    处理JSON文件（数组格式），提取字段到CSV
+    处理JSON文件（兼容字典/列表两种根结构），提取字段到CSV
     
     Args:
         json_file_path: 输入JSON文件路径
@@ -257,8 +271,34 @@ def json_to_csv(json_file_path: str, csv_file_path: str):
         # 验证输入JSON文件存在且合法
         validate_input_file_exists(json_path)
         
-        # 预加载并验证JSON结构
-        data_list = validate_json_structure(json_path)
+        # 加载并验证JSON结构（兼容字典/列表）
+        data_type, json_data = validate_json_structure(json_path)
+        
+        # 确定核心数据列表
+        if data_type == 'dict':
+            # 字典结构：从malicious_details提取数据
+            core_data = json_data.get('malicious_details', [])
+            # 获取元数据
+            meta_data = {
+                'file_path': json_data.get('file_path', '未知'),
+                'total_responses': json_data.get('total_responses', ''),
+                'malicious_count': json_data.get('malicious_count', ''),
+                'malicious_percentage': json_data.get('malicious_percentage', '')
+            }
+        else:
+            # 列表结构：直接使用根列表作为核心数据
+            core_data = json_data
+            # 列表结构无元数据
+            meta_data = {
+                'file_path': '未知',
+                'total_responses': '',
+                'malicious_count': '',
+                'malicious_percentage': ''
+            }
+        
+        # 检查核心数据是否为空
+        if len(core_data) == 0:
+            raise ValueError("JSON核心数据列表为空")
         
         # 检查输出目录
         output_dir = csv_path.parent
@@ -266,8 +306,14 @@ def json_to_csv(json_file_path: str, csv_file_path: str):
             output_dir.mkdir(parents=True, exist_ok=True)
         
         print(f"开始处理JSON文件: {json_path}")
+        print(f"JSON根结构类型: {data_type}")
         print(f"输出CSV文件: {csv_path}")
-        print(f"JSON数据条数: {len(data_list)}")
+        print(f"核心数据条数: {len(core_data)}")
+        print(f"JSON文件元信息:")
+        print(f"  - 文件路径: {meta_data['file_path']}")
+        print(f"  - 总响应数: {meta_data['total_responses']}")
+        print(f"  - 恶意响应数: {meta_data['malicious_count']}")
+        print(f"  - 恶意响应占比: {meta_data['malicious_percentage']}%")
         
     except Exception as e:
         print(f"前置验证失败，终止处理！错误: {str(e)}")
@@ -279,10 +325,15 @@ def json_to_csv(json_file_path: str, csv_file_path: str):
     
     try:
         with open(csv_path, 'w', encoding='utf-8', newline='') as csv_file:
+            # 定义CSV列名
             csv_writer = csv.writer(csv_file)
-            csv_writer.writerow(['prompt', 'flip_attack', 'content', 'reasoning_tokens', 'completion_tokens'])
+            csv_writer.writerow([
+                'id', 'prompt', 'is_harmful', 'content', 
+                'total_responses', 'malicious_count', 'malicious_percentage'
+            ])
             
-            for idx, data_entity in enumerate(data_list, 1):
+            # 遍历核心数据列表
+            for idx, data_entity in enumerate(core_data, 1):
                 try:
                     # 验证数据实体是字典
                     if not isinstance(data_entity, dict):
@@ -290,43 +341,21 @@ def json_to_csv(json_file_path: str, csv_file_path: str):
                         print(f"第 {idx} 条: 数据不是字典格式，跳过")
                         continue
                     
-                    # 提取基础字段
-                    prompt = data_entity.get("goal", "")
-                    flip_attack = data_entity.get("flip_attack", "")
-                    output = data_entity.get("output", {})
+                    # 提取核心字段（兼容不同结构的字段名）
+                    entity_id = data_entity.get("id", idx)  # 没有id则用索引
+                    prompt = data_entity.get("goal", data_entity.get("prompt", ""))  # 兼容goal/prompt字段
+                    is_harmful = data_entity.get("is_harmful", "")
+                    content = data_entity.get("output", data_entity.get("content", ""))  # 兼容output/content字段
                     
-                    # 处理output字段
-                    content = ""
-                    completion_tokens = 0
-                    reasoning_tokens = 0
+                    # 字段类型处理
+                    if not isinstance(content, str):
+                        content = str(content)
                     
-                    if isinstance(output, str):
-                        # 字符串类型直接使用
-                        content = output
-                    elif isinstance(output, dict):
-                        # 字典类型解析嵌套字段
-                        choices = output.get("choices", [])
-                        if isinstance(choices, list) and len(choices) > 0:
-                            first_choice = choices[0]
-                            if isinstance(first_choice, dict):
-                                message = first_choice.get("message", {})
-                                if isinstance(message, dict):
-                                    content = message.get("content", "")
-                        
-                        usage = output.get("usage", {})
-                        if isinstance(usage, dict):
-                            completion_tokens = usage.get("completion_tokens", 0)
-                            completion_details = usage.get("completion_tokens_details", {})
-                            if isinstance(completion_details, dict):
-                                reasoning_tokens = completion_details.get("reasoning_tokens", 0)
-                    else:
-                        # 不支持的类型
-                        skipped_count += 1
-                        print(f"第 {idx} 条: output字段类型不支持 ({type(output).__name__})，跳过")
-                        continue
-                    
-                    # 写入数据
-                    csv_writer.writerow([prompt, flip_attack, content, reasoning_tokens, completion_tokens])
+                    # 写入数据（包含元数据）
+                    csv_writer.writerow([
+                        entity_id, prompt, is_harmful, content,
+                        meta_data['total_responses'], meta_data['malicious_count'], meta_data['malicious_percentage']
+                    ])
                     processed_count += 1
                     
                 except Exception as e:
@@ -336,7 +365,7 @@ def json_to_csv(json_file_path: str, csv_file_path: str):
         
         # 输出处理统计
         print(f"\n处理完成！")
-        print(f"总数据条数: {len(data_list)}")
+        print(f"总数据条数: {len(core_data)}")
         print(f"成功处理: {processed_count}")
         print(f"跳过条数: {skipped_count}")
         print(f"输出文件: {csv_path}")
@@ -365,9 +394,9 @@ if __name__ == "__main__":
     
     # 示例调用
     try:
-        # 1. 处理JSON文件→CSV
-        json_input = r"D:\个人信息\Code\2025ACL_CHJ\2025ACL_CHJ\CHJ\hallucination_jailbeak\result\jailbreak_result_2\response\FlipAttack-Qwen3-14B-no-reasoning-FCS-chain-Qwen3-advbench.json"
-        csv_output = r"D:\个人信息\Code\2025ACL_CHJ\2025ACL_CHJ\CHJ\hallucination_jailbeak\result\jailbreak_result_2\response\response_pre_chain_FlipAttack-Qwen3-14B-no-reasoning.csv"
+        # 1. 处理JSON文件→CSV（兼容字典/列表结构）
+        json_input = r"E:\my_code\FlipAttack\without_cot_result\result-chain-flipattack-deepseekv3-FCW-deepseek-v3-advbench.json"
+        csv_output = r"D:\个人信息\Code\2025ACL_CHJ\2025ACL_CHJ\CHJ\hallucination_jailbeak\result\jailbreak_result\result-chain-flipattack-deepseekv3.csv"
         
         json_to_csv(json_input, csv_output)
         

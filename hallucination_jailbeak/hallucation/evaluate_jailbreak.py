@@ -139,14 +139,12 @@ if __name__ == "__main__":
     # 文件路径配置result_chain_flipattack_llama2_7B_no_reasoning.csv
     base_dir = r"D:\个人信息\Code\2025ACL_CHJ\2025ACL_CHJ\CHJ\hallucination_jailbeak\result\jailbreak_result_2\response"
     evaluate_files = [
-        os.path.join(base_dir, "response_pre_chain_FlipAttack-deepseekv3-no-reasoning.csv"),
-        os.path.join(base_dir, "response_pre_chain_FlipAttack-Qwen3-8B-no-reasoning.csv"),
-        os.path.join(base_dir, "response_pre_chain_FlipAttack-Qwen3-14B-no-reasoning.csv"),
+        os.path.join(base_dir, "response__pre_chain_flipattack_llama2_7B_no_reasoning.csv"),
+        os.path.join(base_dir, "response__pre_chain_flipattack_llama2_13B_no_reasoning.csv"),
     ]
     output_files = [
-        os.path.join(base_dir, "evaluation_pre_chain_FlipAttack-deepseekv3-no-reasoning.csv"),   
-        os.path.join(base_dir, "evaluation_pre_chain_FlipAttack-Qwen3-8B-no-reasoning.csv"),   
-        os.path.join(base_dir, "evaluation_pre_chain_FlipAttack-Qwen3-14B-no-reasoning.csv"),                           
+        os.path.join(base_dir, "evaluation_pre_chain_FlipAttack-llama2_7B-no-reasoning.csv"),   
+        os.path.join(base_dir, "evaluation_pre_chain_FlipAttack-llama2_13B-no-reasoning.csv"),   
     ]
     
     for evaluate_file_path, output_file_path in zip(evaluate_files, output_files):
