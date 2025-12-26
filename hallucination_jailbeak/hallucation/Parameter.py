@@ -10,9 +10,9 @@ BASE_DIR = r"D:\个人信息\Code\2025ACL_CHJ\2025ACL_CHJ\CHJ\hallucination_jail
 @dataclass
 class Parameter:
     chat_model_type: str = "Qwen/Qwen3-14B"
-    model_path: str = "Qwen3-14B"
+    model_path: str = "claude"
     judge_model: str = "Pro/deepseek-ai/DeepSeek-V3"
-    feihua_key:str = "sk-scmlppywvaictfhfkkeictfghtbnmmgozskcmftijxttfpyn"
+    feihua_key:str = "sk-qtqstxbfqbekatkcqenngmnbvgbuusibuikezybrqznittfl"
     judge_model_key: str = "sk-cxgbkcslxrnbujqrmkklgocmofbqzkguqdllxhbcyitndwbf"
     motivation_key: str = "sk-enzwnozvwlakthixwbsmstlrpayefwfbraigfartdcxbciyd"
     jailbreak_key: str = "sk-nvifhtqcjbwnlzldxcbggpykvywajrghylundqsaqlvufdec"
@@ -37,7 +37,7 @@ class Parameter:
     Asker_PAP_PATH: str = os.path.join(BASE_DIR, "data/asker_pap.csv")
     AIME_feihua_PATH: str = os.path.join(BASE_DIR, "data/aime_feihua.csv")
     AIME_PAP_PATH: str = os.path.join(BASE_DIR, "data/aime_pap.csv")
-    METHOD: str = "feihua"
+    METHOD: str = "no"
     run_count: int = 4
 
     Jailbreak_backend_dir: str = os.path.join(BASE_DIR, "result/jailbreak_result/")

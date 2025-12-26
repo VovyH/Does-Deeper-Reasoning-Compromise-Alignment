@@ -5,7 +5,7 @@ evaluate_prompt = """
     Model's Response: "{model_response}".
     Correct Answer: "{correct_answer}".
     
-    If the model's response is consistent with or semantically equivalent to the correct answer, answer in the boxed. Only return 'True', otherwise return 'False'.
+    If the model's response is consistent with or semantically equivalent to the correct answer, answer in the boxed! Only return 'True', otherwise return 'False'.
     """
     
 feihua_prompt = """

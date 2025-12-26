@@ -5,7 +5,6 @@ from tqdm import tqdm
 import requests
 from Parameter import Parameter_args  # 导入配置参数
 from openai import OpenAI
-    
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
 # 可选：定义哪些异常需要重试
@@ -45,7 +44,6 @@ def get_response_with_judge_gpt(question):
     except (requests.exceptions.RequestException, KeyError, ValueError) as e:
         print(f"Request failed: {e}")
         raise  # 重新抛出异常以触发重试
-
 
 
 def get_response_with_qwen(question: str, api_key: str, model: str, 
