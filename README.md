@@ -1,9 +1,3 @@
-可以，下面是一版适合论文仓库的完整 `README.md`，可以直接替换 GitHub 仓库首页。
-
-# Does Deeper Reasoning Compromise Alignment?
-
-This repository contains the code, data, and experimental results for our paper:
-
 **Does Deeper Reasoning Compromise Safety Alignment? Revealing and Mitigating Alignment Collapse in Large Reasoning Models**
 
 We study whether extended reasoning in Large Reasoning Models (LRMs) makes models more vulnerable to external perturbations. Our experiments show that deeper reasoning can improve clean-task performance while increasing sensitivity to irrelevant noise, scenario nesting, and adversarial jailbreak prompts.
