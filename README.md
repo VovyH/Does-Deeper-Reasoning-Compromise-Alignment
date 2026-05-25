@@ -1,4 +1,4 @@
-**Does Deeper Reasoning Compromise Safety Alignment? Revealing and Mitigating Alignment Collapse in Large Reasoning Models**
+# **Does Deeper Reasoning Compromise Safety Alignment? Revealing and Mitigating Alignment Collapse in Large Reasoning Models**
 
 We study whether extended reasoning in Large Reasoning Models (LRMs) makes models more vulnerable to external perturbations. Our experiments show that deeper reasoning can improve clean-task performance while increasing sensitivity to irrelevant noise, scenario nesting, and adversarial jailbreak prompts.
 
